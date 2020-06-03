@@ -1,4 +1,3 @@
-[![Actions Status](https://github.com/emmo-repo/EMMO/workflows/EMMO%20documentation/badge.svg)](https://github.com/emmo-repo/EMMO/actions)
 [![EMMO documentation](https://github.com/emmo-repo/EMMO/workflows/EMMO%20documentation/badge.svg)](https://emmo-repo.github.io/)
 [![CI tests](https://github.com/emmo-repo/EMMO/workflows/CI%20tests/badge.svg)](https://github.com/emmo-repo/EMMO/actions/)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
