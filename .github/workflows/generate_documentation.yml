@@ -1,4 +1,5 @@
-name: Generate documentation
+# Generate EMMO documentation and deploy it on GitHub Pages
+name: EMMO documentation
 
 on:
   push:
