@@ -1,4 +1,4 @@
-name: Generate and copy EMMO documentation to GitHub Pages
+name: Generate documentation
 
 on:
   push:
