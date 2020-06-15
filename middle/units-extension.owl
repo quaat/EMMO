@@ -133,6 +133,12 @@ Version 1.0.0-alpha2</owl:versionInfo>
                 <owl:someValuesFrom rdf:resource="http://emmo.info/emmo/middle/units-extension#EMMO_be262f60_9804_4b97_8ca4_bb8721eb6825"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://emmo.info/emmo/middle/properties#EMMO_e1097637_70d2_4895_973f_2396f04fa204"/>
+                <owl:someValuesFrom rdf:resource="http://emmo.info/emmo/middle/units-extension#EMMO_c7cb41fc_ea04_48de_b537_c804a09f3956"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </rdf:Description>
     
 
