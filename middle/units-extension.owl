@@ -10,7 +10,7 @@
      xmlns:siunits="http://emmo.info/emmo/middle/siunits#"
      xmlns:annotations="http://emmo.info/emmo/top/annotations#">
     <owl:Ontology rdf:about="http://emmo.info/middle/units-extension">
-        <owl:versionIRI rdf:resource="http://emmo.info/middle/1.0.0-alpha2/units-extension"/>
+        <owl:versionIRI rdf:resource="http://emmo.info/1.0.0-alpha2/middle/units-extension"/>
         <owl:imports rdf:resource="http://emmo.info/emmo/1.0.0-alpha2/middle/materials"/>
         <owl:imports rdf:resource="http://emmo.info/emmo/1.0.0-alpha2/middle/siunits"/>
         <annotations:EMMO_5525a055_dda5_4556_8b91_f0d22fa676cc>EMMO is released under a Creative Commons license Attribution 4.0 International (CC BY 4.0)
@@ -98,32 +98,6 @@ Version 1.0.0-alpha2</owl:versionInfo>
 
     <rdf:Description rdf:about="http://emmo.info/emmo/middle/siunits#EMMO_99296e55_53f7_4333_9e06_760ad175a1b9">
         <rdfs:subClassOf rdf:resource="http://emmo.info/middle/units-extension#EMMO_81369540_1b0e_471b_9bae_6801af22800e"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://emmo.info/emmo/middle/siunits#EMMO_a121bb1d_5225_4c78_809b_0268c3012208 -->
-
-    <rdf:Description rdf:about="http://emmo.info/emmo/middle/siunits#EMMO_a121bb1d_5225_4c78_809b_0268c3012208">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://emmo.info/emmo/middle/metrology#EMMO_bed1d005_b04e_4a90_94cf_02bc678a8569"/>
-                <owl:allValuesFrom rdf:resource="http://emmo.info/middle/units-extension#EMMO_ed647204_fa50_4599_8f7e_4167cc4d2fb5"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </rdf:Description>
-    
-
-
-    <!-- http://emmo.info/emmo/middle/siunits#EMMO_cf3dd6cc_c5d6_4b3d_aef4_82f3b7a361af -->
-
-    <rdf:Description rdf:about="http://emmo.info/emmo/middle/siunits#EMMO_cf3dd6cc_c5d6_4b3d_aef4_82f3b7a361af">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://emmo.info/emmo/middle/metrology#EMMO_bed1d005_b04e_4a90_94cf_02bc678a8569"/>
-                <owl:allValuesFrom rdf:resource="http://emmo.info/middle/units-extension#EMMO_f9b13cf7_b8c5_4222_aa89_f9ccfa8c7c7c"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
     </rdf:Description>
     
 
