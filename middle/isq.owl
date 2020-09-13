@@ -295,7 +295,7 @@ See the comments of PhysicalDimension for a description of this &quot;regex&quot
         <annotations:EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25>http://dbpedia.org/page/Voltage</annotations:EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25>
         <annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>Energy required to move a unit charge through an electric field from a reference point.</annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>
         <annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>https://doi.org/10.1351/goldbook.A00424</annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>
-        <rdfs:label xml:lang="en">ElectricPotential</rdfs:label>
+        <rdfs:label xml:lang="en">ElectricTension</rdfs:label>
     </owl:Class>
     
 
