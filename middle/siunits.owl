@@ -53,42 +53,13 @@ It provides the connection between the physical world, materials characterisatio
     <!-- http://emmo.info/emmo/middle/siunits#EMMO_eab49d9c_dbb8_4c1a_b1b8_16994735fa9a -->
 
     <owl:AnnotationProperty rdf:about="http://emmo.info/emmo/middle/siunits#EMMO_eab49d9c_dbb8_4c1a_b1b8_16994735fa9a">
-        <annotations:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84>A real pre-factor that the numerical part of a quantity expressed in a non-SI unit has to be multiplied when converting it to the corresponding SI unit.</annotations:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84>
-        <annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>Pre-factor for converting a non-SI unit to SI.</annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>
-        <annotations:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a>Lets consider the quantity length expressed as 1 Å. In order to convert this into SI, we must multiply the numerical part with the prefiactor 1e-10. 
+        <annotations:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84>A conversion factor (real number) that is multiplied with the corresponding coherent SI unit to obtain the unit in question.</annotations:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84>
+        <annotations:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a>The siUnitConversionFactor for the non-SI-coherent unit Minute is 60, since
+ 
+    Minute = 60 * Second
 
-Hence, the siUnitConversionPreFactor for Ångström is 1e-10.</annotations:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a>
-        <rdfs:label xml:lang="en">siUnitConversionPreFactor</rdfs:label>
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://emmo.info/emmo/middle/siunits#EMMO_ff04dfe2_947a_4cdc_a316_12236eec9dfd -->
-
-    <owl:AnnotationProperty rdf:about="http://emmo.info/emmo/middle/siunits#EMMO_ff04dfe2_947a_4cdc_a316_12236eec9dfd">
-        <annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>Reference value for converting non-SI scale or level units to SI.</annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>
-        <annotations:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a>Example of siUnitConversionReference for some units:
-
-  - DegreeCelcius: -273.15
-  - Neper: 1
-  - Bell: 1</annotations:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a>
-        <rdfs:comment>The conversion of a quantity expressed in a non-SI unit to its corresponding SI unit can generally be written as
-
-    si_value = siUnitConversionPreFactor * f(value, siUnitConversionReference)
-
-where `value` is the value of the quantity in the non-SI unit, `si_value` is the value of the quantity in SI units and `f` is a conversion formula that depends on the non-SI unit. 
-
-For ordinary units (that only differs from their corresponding SI unit):
-
-    f(value, siUnitConversionReference) = value
-
-For scales like CelciusTemperature:
-
-    f(value, siUnitConversionReference) = value - siUnitConversionReference
-
-For level like</rdfs:comment>
-        <rdfs:label xml:lang="en">siUnitConversionReference</rdfs:label>
+Similarly is the siUnitConversionFactor for Ångström 1e-10.</annotations:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a>
+        <rdfs:label xml:lang="en">siUnitConversionFactor</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
     </owl:AnnotationProperty>
     

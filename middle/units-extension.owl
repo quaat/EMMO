@@ -11,6 +11,7 @@
      xmlns:annotations="http://emmo.info/emmo/top/annotations#">
     <owl:Ontology rdf:about="http://emmo.info/middle/units-extension">
         <owl:versionIRI rdf:resource="http://emmo.info/1.0.0-alpha2/middle/units-extension"/>
+        <owl:imports rdf:resource="http://emmo.info/1.0.0-alpha2/middle/units-extension"/>
         <owl:imports rdf:resource="http://emmo.info/emmo/1.0.0-alpha2/middle/materials"/>
         <owl:imports rdf:resource="http://emmo.info/emmo/1.0.0-alpha2/middle/siunits"/>
         <annotations:EMMO_5525a055_dda5_4556_8b91_f0d22fa676cc>EMMO is released under a Creative Commons license Attribution 4.0 International (CC BY 4.0)
@@ -442,7 +443,7 @@ Dispite of that, it is often used in the natural sciences and technology.</rdfs:
     <owl:Class rdf:about="http://emmo.info/middle/units-extension#EMMO_3941c77d_23d8_461e_9853_a5a96ddbe996">
         <annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>Logarithm of the ratio of two physical quantities of the same kind typically used to measure power or power density.</annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>
         <rdfs:comment>Commonly measured in units of decibel (dB).</rdfs:comment>
-        <rdfs:comment>The level of a power level quantity `P` is defined by
+        <rdfs:comment>The power level of a quantity `P` is defined by
 
     Lp = 1/2 ln(P / P0) Np = 10 og(P / P0) dB
 
@@ -1258,7 +1259,7 @@ Conductivity is equeal to the resiprocal of resistivity.</rdfs:comment>
         <annotations:EMMO_21ae69b4_235e_479d_8dd8_4f756f694c1b>RootPowerLevelQuantity</annotations:EMMO_21ae69b4_235e_479d_8dd8_4f756f694c1b>
         <annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>Logarithm of the ratio of two physical quantities of the same kind where the square of these quantities are typically proportional to power.</annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>
         <rdfs:comment>Commonly measured in units of neper (Np) or decibel (dB).</rdfs:comment>
-        <rdfs:comment>The level of a field level quantity `F` is defined by
+        <rdfs:comment>The field level of a physical quantity `F` is defined by
 
     Lf = ln(F / F0) Np = 20 og(F / F0) dB
 
@@ -1346,6 +1347,33 @@ where `ln` is the natural logarithm, `log` is the base 10 logarithm and `F0` the
         <annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>Dimensionless unit for the fraction of two areas.</annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>
         <rdfs:label xml:lang="en">AreaPerAreaUnit</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://emmo.info/emmo/middle/isq#EMMO_66bc9029_f473_45ff_bab9_c3509ff37a22">
+        <annotations:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a>Hight coordinate of a terrain point; Reference: national standard zero level
+
+Electric potential; Reference: ground (sero) potential
+
+Time of day; Reference: midnight, 00:00:00
+
+Celcius temperature; Reference: 273.15 K</annotations:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://emmo.info/emmo/middle/siunits#EMMO_eab49d9c_dbb8_4c1a_b1b8_16994735fa9a">
+        <rdfs:comment>Conversion formula:
+
+    nonsiunit = siUnitConversionFactor * siunit
+
+where `nonsiunit` is the non-SI-coherent unit that this attribute applies to and `siunit` is its corresponding SI-coherent unit (with the same dimensionality).</rdfs:comment>
+    </rdf:Description>
 </rdf:RDF>
 
 
