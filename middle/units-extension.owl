@@ -185,6 +185,7 @@ email: emanuele.ghedini@unibo.it</rdfs:comment>
         <annotations:EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25>http://dbpedia.org/page/Unified_atomic_mass_unit</annotations:EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25>
         <annotations:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84>One dalton is defined as one twelfth of the mass of an unbound neutral atom of carbon-12 in its nuclear and electronic ground state.</annotations:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84>
         <annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>https://doi.org/10.1351/goldbook.D01514</annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>
+        <rdfs:label xml:lang="en">Dalton</rdfs:label>
         <skos:prefLabel xml:lang="en">Dalton</skos:prefLabel>
     </owl:Class>
     
@@ -206,6 +207,7 @@ email: emanuele.ghedini@unibo.it</rdfs:comment>
         <rdfs:comment>The velocity is related to a point described by its position vector. The point may localize a particle, or be attached to any other object such as a body or a wave.
 
 -- IEC, note 1</rdfs:comment>
+        <rdfs:label xml:lang="en">Velocity</rdfs:label>
         <skos:prefLabel xml:lang="en">Velocity</skos:prefLabel>
     </owl:Class>
     
@@ -221,6 +223,7 @@ email: emanuele.ghedini@unibo.it</rdfs:comment>
         <annotations:EMMO_e55f2d7c_9893_48cd_b4a4_fdf38253bd20>http://www.ontology-of-units-of-measure.org/resource/om-2/AmountOfSubstanceFraction</annotations:EMMO_e55f2d7c_9893_48cd_b4a4_fdf38253bd20>
         <annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>https://doi.org/10.1351/goldbook.A00296</annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>
         <skos:altLabel xml:lang="en">MoleFraction</skos:altLabel>
+        <rdfs:label xml:lang="en">AmountFraction</rdfs:label>
         <skos:prefLabel xml:lang="en">AmountFraction</skos:prefLabel>
     </owl:Class>
     
@@ -234,6 +237,7 @@ email: emanuele.ghedini@unibo.it</rdfs:comment>
         <annotations:EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25>http://dbpedia.org/page/Weight</annotations:EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25>
         <annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>https://doi.org/10.1351/goldbook.W06668</annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>
         <rdfs:comment xml:lang="en">Force of gravity acting on a body.</rdfs:comment>
+        <rdfs:label xml:lang="en">Weight</rdfs:label>
         <skos:prefLabel xml:lang="en">Weight</skos:prefLabel>
     </owl:Class>
     
@@ -259,6 +263,7 @@ email: emanuele.ghedini@unibo.it</rdfs:comment>
         <annotations:EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25>http://dbpedia.org/page/Astronomical_unit</annotations:EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25>
         <annotations:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84>One astronomical unit is defined as exactly 149597870700 m, which is roughly the distance from earth to sun.</annotations:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84>
         <annotations:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d>https://en.wikipedia.org/wiki/Astronomical_unit</annotations:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d>
+        <rdfs:label xml:lang="en">AstronomicalUnit</rdfs:label>
         <skos:prefLabel xml:lang="en">AstronomicalUnit</skos:prefLabel>
     </owl:Class>
     
@@ -272,6 +277,7 @@ email: emanuele.ghedini@unibo.it</rdfs:comment>
         <annotations:EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25>http://dbpedia.org/page/Density</annotations:EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25>
         <annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>https://doi.org/10.1351/goldbook.D01590</annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>
         <rdfs:comment xml:lang="en">Mass per volume.</rdfs:comment>
+        <rdfs:label xml:lang="en">Density</rdfs:label>
         <skos:prefLabel xml:lang="en">Density</skos:prefLabel>
     </owl:Class>
     
@@ -285,6 +291,7 @@ email: emanuele.ghedini@unibo.it</rdfs:comment>
         <annotations:EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25>http://dbpedia.org/page/Atomic_number</annotations:EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25>
         <annotations:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84>Number of protons in an atomic nucleus.</annotations:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84>
         <annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>https://doi.org/10.1351/goldbook.A00499</annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>
+        <rdfs:label xml:lang="en">AtomicNumber</rdfs:label>
         <skos:prefLabel xml:lang="en">AtomicNumber</skos:prefLabel>
     </owl:Class>
     
@@ -298,6 +305,7 @@ email: emanuele.ghedini@unibo.it</rdfs:comment>
         <annotations:EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25>http://dbpedia.org/page/Permeability_(electromagnetism)</annotations:EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25>
         <annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>https://doi.org/10.1351/goldbook.P04503</annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>
         <rdfs:comment xml:lang="en">Measure for how the magnetization of material is affected by the application of an external magnetic field .</rdfs:comment>
+        <rdfs:label xml:lang="en">Permeability</rdfs:label>
         <skos:prefLabel xml:lang="en">Permeability</skos:prefLabel>
     </owl:Class>
     
@@ -311,6 +319,7 @@ email: emanuele.ghedini@unibo.it</rdfs:comment>
         <annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>Probability is a dimensionless quantity that can attain values between 0 and 1; zero denotes the impossible event and 1 denotes a certain event.</annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>
         <annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>https://doi.org/10.1351/goldbook.P04855</annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>
         <rdfs:comment xml:lang="en">The propability for a certain outcome, is the ratio between the number of events leading to the given outcome and the total number of events.</rdfs:comment>
+        <rdfs:label xml:lang="en">Probability</rdfs:label>
         <skos:prefLabel xml:lang="en">Probability</skos:prefLabel>
     </owl:Class>
     
@@ -325,6 +334,7 @@ email: emanuele.ghedini@unibo.it</rdfs:comment>
         <annotations:EMMO_e55f2d7c_9893_48cd_b4a4_fdf38253bd20>http://www.ontology-of-units-of-measure.org/resource/om-2/Permittivity</annotations:EMMO_e55f2d7c_9893_48cd_b4a4_fdf38253bd20>
         <annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>https://doi.org/10.1351/goldbook.P04507</annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>
         <rdfs:comment xml:lang="en">Measure for how the polarization of a material is affected by the application of an external electric field.</rdfs:comment>
+        <rdfs:label xml:lang="en">Permittivity</rdfs:label>
         <skos:prefLabel xml:lang="en">Permittivity</skos:prefLabel>
     </owl:Class>
     
@@ -337,6 +347,7 @@ email: emanuele.ghedini@unibo.it</rdfs:comment>
         <isq:EMMO_de178b12_5d35_4bca_8efa_a4193162571d>T-2 L+2 M+1 I0 Θ0 N0 J0</isq:EMMO_de178b12_5d35_4bca_8efa_a4193162571d>
         <annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>https://doi.org/10.1351/goldbook.H02752</annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>
         <rdfs:comment xml:lang="en">Heat is energy in transfer to or from a thermodynamic system, by mechanisms other than thermodynamic work or transfer of matter.</rdfs:comment>
+        <rdfs:label xml:lang="en">Heat</rdfs:label>
         <skos:prefLabel xml:lang="en">Heat</skos:prefLabel>
     </owl:Class>
     
@@ -349,6 +360,7 @@ email: emanuele.ghedini@unibo.it</rdfs:comment>
         <owl:disjointWith rdf:resource="http://emmo.info/emmo/middle/units-extension#EMMO_c2f5ee66_579c_44c6_a2e9_fa2eaa9fa4da"/>
         <annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 xml:lang="en">Unit for dimensionless units that cannot be expressed as a &apos;FractionUnit&apos;.</annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>
         <annotations:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a xml:lang="en">Unit of AtomicNumber</annotations:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a>
+        <rdfs:label xml:lang="en">PureNumberUnit</rdfs:label>
         <skos:prefLabel xml:lang="en">PureNumberUnit</skos:prefLabel>
     </owl:Class>
     
@@ -362,6 +374,7 @@ email: emanuele.ghedini@unibo.it</rdfs:comment>
         <annotations:EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25>http://dbpedia.org/page/Mass_concentration_(chemistry)</annotations:EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25>
         <annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>https://doi.org/10.1351/goldbook.M03713</annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>
         <rdfs:comment xml:lang="en">Mass of a constituent divided by the volume of the mixture.</rdfs:comment>
+        <rdfs:label xml:lang="en">MassConcentration</rdfs:label>
         <skos:prefLabel xml:lang="en">MassConcentration</skos:prefLabel>
     </owl:Class>
     
@@ -373,6 +386,7 @@ email: emanuele.ghedini@unibo.it</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/units-extension#EMMO_c2f5ee66_579c_44c6_a2e9_fa2eaa9fa4da"/>
         <annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 xml:lang="en">Unit for quantities of dimension one that are the fraction of two masses.</annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>
         <annotations:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a xml:lang="en">Unit for mass fraction.</annotations:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a>
+        <rdfs:label xml:lang="en">MassFractionUnit</rdfs:label>
         <skos:prefLabel xml:lang="en">MassFractionUnit</skos:prefLabel>
     </owl:Class>
     
@@ -389,6 +403,7 @@ email: emanuele.ghedini@unibo.it</rdfs:comment>
         <annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>An electric dipole, vector quantity of magnitude equal to the product of the positive charge and the distance between the charges and directed from the negative charge to the positive charge.</annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>
         <annotations:EMMO_e55f2d7c_9893_48cd_b4a4_fdf38253bd20>http://www.ontology-of-units-of-measure.org/resource/om-2/ElectricDipoleMoment</annotations:EMMO_e55f2d7c_9893_48cd_b4a4_fdf38253bd20>
         <annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>https://doi.org/10.1351/goldbook.E01929</annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>
+        <rdfs:label xml:lang="en">ElectricDipoleMoment</rdfs:label>
         <skos:prefLabel xml:lang="en">ElectricDipoleMoment</skos:prefLabel>
     </owl:Class>
     
@@ -404,6 +419,7 @@ email: emanuele.ghedini@unibo.it</rdfs:comment>
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/metrology#EMMO_9895a1b4_f0a5_4167_ac5e_97db40b8bfcc"/>
+        <rdfs:label xml:lang="en">MagneticDipoleMomentDimension</rdfs:label>
         <skos:prefLabel xml:lang="en">MagneticDipoleMomentDimension</skos:prefLabel>
     </owl:Class>
     
@@ -422,6 +438,7 @@ email: emanuele.ghedini@unibo.it</rdfs:comment>
         <annotations:EMMO_1f1b164d_ec6a_4faa_8d5e_88bda62316cc>http://qudt.org/vocab/unit/ARCMIN</annotations:EMMO_1f1b164d_ec6a_4faa_8d5e_88bda62316cc>
         <annotations:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84>Measure of plane angle defined as 1/60 or a degree.</annotations:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84>
         <skos:altLabel xml:lang="en">MinuteOfArc</skos:altLabel>
+        <rdfs:label xml:lang="en">ArcMinute</rdfs:label>
         <skos:prefLabel xml:lang="en">ArcMinute</skos:prefLabel>
     </owl:Class>
     
@@ -434,6 +451,7 @@ email: emanuele.ghedini@unibo.it</rdfs:comment>
         <isq:EMMO_de178b12_5d35_4bca_8efa_a4193162571d>T0 L-1 M0 I0 Θ0 N0 J0</isq:EMMO_de178b12_5d35_4bca_8efa_a4193162571d>
         <annotations:EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25>http://dbpedia.org/page/Vergence</annotations:EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25>
         <rdfs:comment xml:lang="en">In geometrical optics, vergence describes the curvature of optical wavefronts.</rdfs:comment>
+        <rdfs:label xml:lang="en">Vergence</rdfs:label>
         <skos:prefLabel xml:lang="en">Vergence</skos:prefLabel>
     </owl:Class>
     
@@ -458,6 +476,7 @@ email: emanuele.ghedini@unibo.it</rdfs:comment>
         <annotations:EMMO_1f1b164d_ec6a_4faa_8d5e_88bda62316cc>http://qudt.org/vocab/unit/HR</annotations:EMMO_1f1b164d_ec6a_4faa_8d5e_88bda62316cc>
         <annotations:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84>Measure of time defined as 3600 seconds.</annotations:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84>
         <annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>https://doi.org/10.1351/goldbook.H02866</annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>
+        <rdfs:label xml:lang="en">Hour</rdfs:label>
         <skos:prefLabel xml:lang="en">Hour</skos:prefLabel>
     </owl:Class>
     
@@ -473,6 +492,7 @@ email: emanuele.ghedini@unibo.it</rdfs:comment>
         <annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>https://doi.org/10.1351/goldbook.A00496</annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>
         <rdfs:comment xml:lang="en">Since the nucleus account for nearly all of the total mass of atoms  (with the electrons and nuclear binding energy making minor contributions), the atomic mass measured in Da has nearly the same value as the mass number.</rdfs:comment>
         <rdfs:comment xml:lang="en">The atomic mass is often expressed as an average of the commonly found isotopes.</rdfs:comment>
+        <rdfs:label xml:lang="en">AtomicMass</rdfs:label>
         <skos:prefLabel xml:lang="en">AtomicMass</skos:prefLabel>
     </owl:Class>
     
@@ -503,6 +523,7 @@ email: emanuele.ghedini@unibo.it</rdfs:comment>
 
 Dispite of that, it is often used in the natural sciences and technology.</rdfs:comment>
         <skos:altLabel xml:lang="en">Angstrom</skos:altLabel>
+        <rdfs:label xml:lang="en">Ångström</rdfs:label>
         <skos:prefLabel xml:lang="en">Ångström</skos:prefLabel>
     </owl:Class>
     
@@ -528,6 +549,7 @@ Dispite of that, it is often used in the natural sciences and technology.</rdfs:
         <annotations:EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25>http://dbpedia.org/page/Day</annotations:EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25>
         <annotations:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84>A measure of time defined as 86 400 seconds.</annotations:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84>
         <annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>https://doi.org/10.1351/goldbook.D01527</annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>
+        <rdfs:label xml:lang="en">Day</rdfs:label>
         <skos:prefLabel xml:lang="en">Day</skos:prefLabel>
     </owl:Class>
     
@@ -543,6 +565,7 @@ Dispite of that, it is often used in the natural sciences and technology.</rdfs:
                 <owl:hasValue>T0 L2 M0 I0 Θ0 N0 J0</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">AreaDimension</rdfs:label>
         <skos:prefLabel xml:lang="en">AreaDimension</skos:prefLabel>
     </owl:Class>
     
@@ -556,6 +579,7 @@ Dispite of that, it is often used in the natural sciences and technology.</rdfs:
         <annotations:EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25>http://dbpedia.org/page/Enthalpy</annotations:EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25>
         <annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>https://doi.org/10.1351/goldbook.E02141</annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>
         <rdfs:comment xml:lang="en">Measurement of energy in a thermodynamic system.</rdfs:comment>
+        <rdfs:label xml:lang="en">Enthalpy</rdfs:label>
         <skos:prefLabel xml:lang="en">Enthalpy</skos:prefLabel>
     </owl:Class>
     
@@ -569,6 +593,7 @@ Dispite of that, it is often used in the natural sciences and technology.</rdfs:
         <annotations:EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25>http://dbpedia.org/page/Momentum</annotations:EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25>
         <annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>https://doi.org/10.1351/goldbook.M04007</annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>
         <rdfs:comment xml:lang="en">Product of mass and velocity.</rdfs:comment>
+        <rdfs:label xml:lang="en">Momentum</rdfs:label>
         <skos:prefLabel xml:lang="en">Momentum</skos:prefLabel>
     </owl:Class>
     
@@ -588,6 +613,7 @@ Dispite of that, it is often used in the natural sciences and technology.</rdfs:
 
 -- ISO 80000-3</rdfs:comment>
         <skos:altLabel xml:lang="en">Position</skos:altLabel>
+        <rdfs:label xml:lang="en">PositionVector</rdfs:label>
         <skos:prefLabel xml:lang="en">PositionVector</skos:prefLabel>
     </owl:Class>
     
@@ -603,6 +629,7 @@ Dispite of that, it is often used in the natural sciences and technology.</rdfs:
         <annotations:EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25>http://dbpedia.org/page/Electron_rest_mass</annotations:EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25>
         <annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>https://doi.org/10.1351/goldbook.E02008</annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>
         <rdfs:comment xml:lang="en">The rest mass of an electron.</rdfs:comment>
+        <rdfs:label xml:lang="en">ElectronMass</rdfs:label>
         <skos:prefLabel xml:lang="en">ElectronMass</skos:prefLabel>
     </owl:Class>
     
@@ -620,6 +647,7 @@ Dispite of that, it is often used in the natural sciences and technology.</rdfs:
         </rdfs:subClassOf>
         <annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 xml:lang="en">SI coherent measurement unit for speed.</annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>
         <annotations:EMMO_e55f2d7c_9893_48cd_b4a4_fdf38253bd20>http://www.ontology-of-units-of-measure.org/resource/om-2/metrePerSecond-Time</annotations:EMMO_e55f2d7c_9893_48cd_b4a4_fdf38253bd20>
+        <rdfs:label xml:lang="en">MetrePerSecond</rdfs:label>
         <skos:prefLabel xml:lang="en">MetrePerSecond</skos:prefLabel>
     </owl:Class>
     
@@ -635,6 +663,7 @@ Dispite of that, it is often used in the natural sciences and technology.</rdfs:
         <annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 xml:lang="en">The energy possessed by a body by virtue of its position or orientation in a potential field.</annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>
         <annotations:EMMO_e55f2d7c_9893_48cd_b4a4_fdf38253bd20>http://www.ontology-of-units-of-measure.org/resource/om-2/PotentialEnergy</annotations:EMMO_e55f2d7c_9893_48cd_b4a4_fdf38253bd20>
         <annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>https://doi.org/10.1351/goldbook.P04778</annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>
+        <rdfs:label xml:lang="en">PotentialEnergy</rdfs:label>
         <skos:prefLabel xml:lang="en">PotentialEnergy</skos:prefLabel>
     </owl:Class>
     
@@ -647,6 +676,7 @@ Dispite of that, it is often used in the natural sciences and technology.</rdfs:
         <annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>The centimetre–gram–second (CGS) system of units.</annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>
         <annotations:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d>https://en.wikipedia.org/wiki/Centimetre%E2%80%93gram%E2%80%93second_system_of_units</annotations:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d>
         <rdfs:comment xml:lang="en">CGS is a variant of the metric system.</rdfs:comment>
+        <rdfs:label xml:lang="en">CGSUnit</rdfs:label>
         <skos:prefLabel xml:lang="en">CGSUnit</skos:prefLabel>
     </owl:Class>
     
@@ -660,6 +690,7 @@ Dispite of that, it is often used in the natural sciences and technology.</rdfs:
         <annotations:EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25>http://dbpedia.org/page/Refractive_index</annotations:EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25>
         <annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>https://doi.org/10.1351/goldbook.R05240</annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>
         <rdfs:comment xml:lang="en">Factor by which the phase velocity of light is reduced in a medium.</rdfs:comment>
+        <rdfs:label xml:lang="en">RefractiveIndex</rdfs:label>
         <skos:prefLabel xml:lang="en">RefractiveIndex</skos:prefLabel>
     </owl:Class>
     
@@ -675,6 +706,7 @@ Dispite of that, it is often used in the natural sciences and technology.</rdfs:
         <annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>https://doi.org/10.1351/goldbook.P04508</annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>
         <rdfs:comment xml:lang="en">The DBpedia definition (http://dbpedia.org/page/Vacuum_permittivity) is outdated since May 20, 2019. It is now a measured constant.</rdfs:comment>
         <rdfs:comment xml:lang="en">The value of the absolute dielectric permittivity of classical vacuum.</rdfs:comment>
+        <rdfs:label xml:lang="en">VacuumElectricPermittivity</rdfs:label>
         <skos:prefLabel xml:lang="en">VacuumElectricPermittivity</skos:prefLabel>
     </owl:Class>
     
@@ -689,6 +721,7 @@ Dispite of that, it is often used in the natural sciences and technology.</rdfs:
         <annotations:EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25>http://dbpedia.org/page/Work_(physics)</annotations:EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25>
         <annotations:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84>Product of force and displacement.</annotations:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84>
         <annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>https://doi.org/10.1351/goldbook.W06684</annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>
+        <rdfs:label xml:lang="en">Work</rdfs:label>
         <skos:prefLabel xml:lang="en">Work</skos:prefLabel>
     </owl:Class>
     
@@ -702,6 +735,7 @@ Dispite of that, it is often used in the natural sciences and technology.</rdfs:
         <annotations:EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25>http://dbpedia.org/page/Angular_momentum</annotations:EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25>
         <annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>https://doi.org/10.1351/goldbook.A00353</annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>
         <rdfs:comment xml:lang="en">Measure of the extent and direction an object rotates about a reference point.</rdfs:comment>
+        <rdfs:label xml:lang="en">AngularMomentum</rdfs:label>
         <skos:prefLabel xml:lang="en">AngularMomentum</skos:prefLabel>
     </owl:Class>
     
@@ -730,6 +764,7 @@ Dispite of that, it is often used in the natural sciences and technology.</rdfs:
         <annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>Non-SI units mentioned in the SI.</annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>
         <annotations:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d>https://en.wikipedia.org/wiki/Non-SI_units_mentioned_in_the_SI</annotations:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d>
         <rdfs:comment xml:lang="en">This is a list of units that are not defined as part of the International System of Units (SI), but are otherwise mentioned in the SI brouchure, because either the General Conference on Weights and Measures (CGPM) accepts their use as being multiples or submultiples of SI-units, they have important contemporary application worldwide, or are otherwise commonly encountered worldwide.</rdfs:comment>
+        <rdfs:label xml:lang="en">SIAcceptedSpecialUnit</rdfs:label>
         <skos:prefLabel xml:lang="en">SIAcceptedSpecialUnit</skos:prefLabel>
     </owl:Class>
     
@@ -748,6 +783,7 @@ Dispite of that, it is often used in the natural sciences and technology.</rdfs:
         <annotations:EMMO_1f1b164d_ec6a_4faa_8d5e_88bda62316cc>http://qudt.org/vocab/unit/ARCSEC</annotations:EMMO_1f1b164d_ec6a_4faa_8d5e_88bda62316cc>
         <annotations:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84>Measure of plane angle defined as 1/3600 or a degree.</annotations:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84>
         <skos:altLabel xml:lang="en">SecondOfArc</skos:altLabel>
+        <rdfs:label xml:lang="en">ArcSecond</rdfs:label>
         <skos:prefLabel xml:lang="en">ArcSecond</skos:prefLabel>
     </owl:Class>
     
@@ -775,6 +811,7 @@ Dispite of that, it is often used in the natural sciences and technology.</rdfs:
         <annotations:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d>https://en.wikipedia.org/wiki/Decibel</annotations:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d>
         <rdfs:comment xml:lang="en">Today decibel (one tenth of a bel) is commonly used instead of bel.</rdfs:comment>
         <rdfs:comment xml:lang="en">bel is used to express the ratio of one value of a power or field quantity to another, on a logarithmic scale, the logarithmic quantity being called the power level or field level, respectively.</rdfs:comment>
+        <rdfs:label xml:lang="en">Bel</rdfs:label>
         <skos:prefLabel xml:lang="en">Bel</skos:prefLabel>
     </owl:Class>
     
@@ -786,6 +823,7 @@ Dispite of that, it is often used in the natural sciences and technology.</rdfs:
         <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/units-extension#EMMO_c2f5ee66_579c_44c6_a2e9_fa2eaa9fa4da"/>
         <annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 xml:lang="en">Unit for quantities of dimension one that are the fraction of two areas.</annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>
         <annotations:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a xml:lang="en">Unit for solid angle.</annotations:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a>
+        <rdfs:label xml:lang="en">AreaFractionUnit</rdfs:label>
         <skos:prefLabel xml:lang="en">AreaFractionUnit</skos:prefLabel>
     </owl:Class>
     
@@ -798,6 +836,7 @@ Dispite of that, it is often used in the natural sciences and technology.</rdfs:
         <isq:EMMO_de178b12_5d35_4bca_8efa_a4193162571d>T-3 L+2 M+1 I-2 Θ0 N0 J0</isq:EMMO_de178b12_5d35_4bca_8efa_a4193162571d>
         <annotations:EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25>http://dbpedia.org/page/Electrical_impedance</annotations:EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25>
         <rdfs:comment xml:lang="en">Measure of the opposition that a circuit presents to a current when a voltage is applied.</rdfs:comment>
+        <rdfs:label xml:lang="en">ElectricalImpedance</rdfs:label>
         <skos:prefLabel xml:lang="en">ElectricalImpedance</skos:prefLabel>
     </owl:Class>
     
@@ -812,6 +851,7 @@ Dispite of that, it is often used in the natural sciences and technology.</rdfs:
         <annotations:EMMO_e55f2d7c_9893_48cd_b4a4_fdf38253bd20>http://www.ontology-of-units-of-measure.org/resource/om-2/MassFraction</annotations:EMMO_e55f2d7c_9893_48cd_b4a4_fdf38253bd20>
         <annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>https://doi.org/10.1351/goldbook.M03722</annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>
         <rdfs:comment xml:lang="en">Mass of a constituent divided by the total mass of all constituents in the mixture.</rdfs:comment>
+        <rdfs:label xml:lang="en">MassFraction</rdfs:label>
         <skos:prefLabel xml:lang="en">MassFraction</skos:prefLabel>
     </owl:Class>
     
@@ -825,6 +865,7 @@ Dispite of that, it is often used in the natural sciences and technology.</rdfs:
         <annotations:EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25>http://dbpedia.org/page/Current_density</annotations:EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25>
         <annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>https://doi.org/10.1351/goldbook.E01928</annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>
         <rdfs:comment xml:lang="en">Electric current divided by the cross-sectional area it is passing through.</rdfs:comment>
+        <rdfs:label xml:lang="en">CurrentDensity</rdfs:label>
         <skos:prefLabel xml:lang="en">CurrentDensity</skos:prefLabel>
     </owl:Class>
     
@@ -841,6 +882,7 @@ Dispite of that, it is often used in the natural sciences and technology.</rdfs:
         <rdfs:comment xml:lang="en">Length per unit time. 
 
 Speed in the absolute value of the velocity.</rdfs:comment>
+        <rdfs:label xml:lang="en">Speed</rdfs:label>
         <skos:prefLabel xml:lang="en">Speed</skos:prefLabel>
     </owl:Class>
     
@@ -865,6 +907,7 @@ Speed in the absolute value of the velocity.</rdfs:comment>
 where g is the appropriate g factor, μ is mostly the Bohr magneton or nuclear magneton, M is magnetic quantum number, and B is magnitude of the magnetic flux density.
 
 -- ISO 80000</rdfs:comment>
+        <rdfs:label xml:lang="en">MagneticDipoleMoment</rdfs:label>
         <skos:prefLabel xml:lang="en">MagneticDipoleMoment</skos:prefLabel>
     </owl:Class>
     
@@ -881,6 +924,7 @@ where g is the appropriate g factor, μ is mostly the Bohr magneton or nuclear m
         <annotations:EMMO_e55f2d7c_9893_48cd_b4a4_fdf38253bd20>http://www.ontology-of-units-of-measure.org/resource/om-2/InternalEnergy</annotations:EMMO_e55f2d7c_9893_48cd_b4a4_fdf38253bd20>
         <annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>https://doi.org/10.1351/goldbook.I03103</annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>
         <skos:altLabel xml:lang="en">ThermodynamicEnergy</skos:altLabel>
+        <rdfs:label xml:lang="en">InternalEnergy</rdfs:label>
         <skos:prefLabel xml:lang="en">InternalEnergy</skos:prefLabel>
     </owl:Class>
     
@@ -894,6 +938,7 @@ where g is the appropriate g factor, μ is mostly the Bohr magneton or nuclear m
         <annotations:EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25>http://dbpedia.org/page/Chemical_potential</annotations:EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25>
         <annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>https://doi.org/10.1351/goldbook.C01032</annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>
         <rdfs:comment xml:lang="en">Energy per unit change in amount of substance.</rdfs:comment>
+        <rdfs:label xml:lang="en">ChemicalPotential</rdfs:label>
         <skos:prefLabel xml:lang="en">ChemicalPotential</skos:prefLabel>
     </owl:Class>
     
@@ -908,6 +953,7 @@ where g is the appropriate g factor, μ is mostly the Bohr magneton or nuclear m
         <annotations:EMMO_1f1b164d_ec6a_4faa_8d5e_88bda62316cc>http://physics.nist.gov/cuu/CODATA-Value_ProtonMass</annotations:EMMO_1f1b164d_ec6a_4faa_8d5e_88bda62316cc>
         <annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>https://doi.org/10.1351/goldbook.P04914</annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>
         <rdfs:comment xml:lang="en">The rest mass of a proton.</rdfs:comment>
+        <rdfs:label xml:lang="en">ProtonMass</rdfs:label>
         <skos:prefLabel xml:lang="en">ProtonMass</skos:prefLabel>
     </owl:Class>
     
@@ -923,6 +969,7 @@ where g is the appropriate g factor, μ is mostly the Bohr magneton or nuclear m
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/metrology#EMMO_9895a1b4_f0a5_4167_ac5e_97db40b8bfcc"/>
+        <rdfs:label xml:lang="en">VolumeDimension</rdfs:label>
         <skos:prefLabel xml:lang="en">VolumeDimension</skos:prefLabel>
     </owl:Class>
     
@@ -935,6 +982,7 @@ where g is the appropriate g factor, μ is mostly the Bohr magneton or nuclear m
         <isq:EMMO_de178b12_5d35_4bca_8efa_a4193162571d>T-3 L+2 M+1 I-2 Θ0 N0 J0</isq:EMMO_de178b12_5d35_4bca_8efa_a4193162571d>
         <annotations:EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25>http://dbpedia.org/page/Electrical_reactance</annotations:EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25>
         <rdfs:comment xml:lang="en">The opposition of a circuit element to a change in current or voltage, due to that element&apos;s inductance or capacitance.</rdfs:comment>
+        <rdfs:label xml:lang="en">ElectricalReactance</rdfs:label>
         <skos:prefLabel xml:lang="en">ElectricalReactance</skos:prefLabel>
     </owl:Class>
     
@@ -948,6 +996,7 @@ where g is the appropriate g factor, μ is mostly the Bohr magneton or nuclear m
         <annotations:EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25>http://dbpedia.org/page/Area</annotations:EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25>
         <annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>https://doi.org/10.1351/goldbook.A00429</annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>
         <rdfs:comment xml:lang="en">Extent of a surface.</rdfs:comment>
+        <rdfs:label xml:lang="en">Area</rdfs:label>
         <skos:prefLabel xml:lang="en">Area</skos:prefLabel>
     </owl:Class>
     
@@ -962,6 +1011,7 @@ where g is the appropriate g factor, μ is mostly the Bohr magneton or nuclear m
         <annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>https://doi.org/10.1351/goldbook.L03640</annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>
         <rdfs:comment xml:lang="en">Measured in cd/m². Not to confuse with Illuminance, which is measured in lux (cd sr/m²).</rdfs:comment>
         <rdfs:comment xml:lang="en">a photometric measure of the luminous intensity per unit area of light travelling in a given direction.</rdfs:comment>
+        <rdfs:label xml:lang="en">Luminance</rdfs:label>
         <skos:prefLabel xml:lang="en">Luminance</skos:prefLabel>
     </owl:Class>
     
@@ -976,6 +1026,7 @@ where g is the appropriate g factor, μ is mostly the Bohr magneton or nuclear m
         <annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>https://doi.org/10.1351/goldbook.E02149</annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>
         <rdfs:comment xml:lang="en">Logarithmic measure of the number of available states of a system.</rdfs:comment>
         <rdfs:comment xml:lang="en">May also be referred to as a measure of order of  a system.</rdfs:comment>
+        <rdfs:label xml:lang="en">Entropy</rdfs:label>
         <skos:prefLabel xml:lang="en">Entropy</skos:prefLabel>
     </owl:Class>
     
@@ -991,6 +1042,7 @@ where g is the appropriate g factor, μ is mostly the Bohr magneton or nuclear m
         <annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 xml:lang="en">The unique point where the weighted relative position of the distributed mass of an Item sums to zero. Equivalently, it is the point where if a force is applied to the Item, causes the Item to move in direction of force without rotation.</annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>
         <annotations:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d>https://en.wikipedia.org/wiki/Center_of_mass</annotations:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d>
         <rdfs:comment xml:lang="en">In non-relativistic physics, the centre of mass doesn’t depend on the chosen reference frame.</rdfs:comment>
+        <rdfs:label xml:lang="en">CentreOfMass</rdfs:label>
         <skos:prefLabel xml:lang="en">CentreOfMass</skos:prefLabel>
     </owl:Class>
     
@@ -1002,6 +1054,7 @@ where g is the appropriate g factor, μ is mostly the Bohr magneton or nuclear m
         <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/units-extension#EMMO_c2f5ee66_579c_44c6_a2e9_fa2eaa9fa4da"/>
         <annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 xml:lang="en">Unit for quantities of dimension one that are the fraction of two volumes.</annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>
         <annotations:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a xml:lang="en">Unit for volume fraction.</annotations:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a>
+        <rdfs:label xml:lang="en">VolumeFractionUnit</rdfs:label>
         <skos:prefLabel xml:lang="en">VolumeFractionUnit</skos:prefLabel>
     </owl:Class>
     
@@ -1019,6 +1072,7 @@ where g is the appropriate g factor, μ is mostly the Bohr magneton or nuclear m
         </rdfs:subClassOf>
         <annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 xml:lang="en">SI coherent measurement unit for volume.</annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>
         <annotations:EMMO_e55f2d7c_9893_48cd_b4a4_fdf38253bd20>http://www.ontology-of-units-of-measure.org/resource/om-2/cubicMetre</annotations:EMMO_e55f2d7c_9893_48cd_b4a4_fdf38253bd20>
+        <rdfs:label xml:lang="en">CubicMetre</rdfs:label>
         <skos:prefLabel xml:lang="en">CubicMetre</skos:prefLabel>
     </owl:Class>
     
@@ -1043,6 +1097,7 @@ where g is the appropriate g factor, μ is mostly the Bohr magneton or nuclear m
         <annotations:EMMO_1f1b164d_ec6a_4faa_8d5e_88bda62316cc>http://qudt.org/vocab/unit/L</annotations:EMMO_1f1b164d_ec6a_4faa_8d5e_88bda62316cc>
         <annotations:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84>A non-SI unit of volume defined as 1 cubic decimetre (dm3),</annotations:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84>
         <annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>https://doi.org/10.1351/goldbook.L03594</annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>
+        <rdfs:label xml:lang="en">Litre</rdfs:label>
         <skos:prefLabel xml:lang="en">Litre</skos:prefLabel>
     </owl:Class>
     
@@ -1058,6 +1113,7 @@ where g is the appropriate g factor, μ is mostly the Bohr magneton or nuclear m
         <annotations:EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25>http://dbpedia.org/page/Rydberg_constant</annotations:EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25>
         <annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>https://doi.org/10.1351/goldbook.R05430</annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>
         <rdfs:comment xml:lang="en">The Rydberg constant represents the limiting value of the highest wavenumber (the inverse wavelength) of any photon that can be emitted from the hydrogen atom, or, alternatively, the wavenumber of the lowest-energy photon capable of ionizing the hydrogen atom from its ground state.</rdfs:comment>
+        <rdfs:label xml:lang="en">RybergConstant</rdfs:label>
         <skos:prefLabel xml:lang="en">RybergConstant</skos:prefLabel>
     </owl:Class>
     
@@ -1072,6 +1128,7 @@ where g is the appropriate g factor, μ is mostly the Bohr magneton or nuclear m
         <annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 xml:lang="en">Volume of a constituent of a mixture divided by the sum of volumes of all constituents prior to mixing.</annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>
         <annotations:EMMO_e55f2d7c_9893_48cd_b4a4_fdf38253bd20 xml:lang="en">http://www.ontology-of-units-of-measure.org/resource/om-2/VolumeFraction</annotations:EMMO_e55f2d7c_9893_48cd_b4a4_fdf38253bd20>
         <annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2 xml:lang="en">https://doi.org/10.1351/goldbook.V06643</annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>
+        <rdfs:label xml:lang="en">VolumeFraction</rdfs:label>
         <skos:prefLabel xml:lang="en">VolumeFraction</skos:prefLabel>
     </owl:Class>
     
@@ -1087,6 +1144,7 @@ where g is the appropriate g factor, μ is mostly the Bohr magneton or nuclear m
         <annotations:EMMO_e55f2d7c_9893_48cd_b4a4_fdf38253bd20>http://www.ontology-of-units-of-measure.org/resource/om-2/Torque</annotations:EMMO_e55f2d7c_9893_48cd_b4a4_fdf38253bd20>
         <annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>https://doi.org/10.1351/goldbook.T06400</annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>
         <rdfs:comment xml:lang="en">Even though torque has the same physical dimension as energy, it is not of the same kind and can not be measured with energy units like joule or electron volt.</rdfs:comment>
+        <rdfs:label xml:lang="en">Torque</rdfs:label>
         <skos:prefLabel xml:lang="en">Torque</skos:prefLabel>
     </owl:Class>
     
@@ -1102,6 +1160,7 @@ where g is the appropriate g factor, μ is mostly the Bohr magneton or nuclear m
         <annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 xml:lang="en">The energy of an object due to its motion.</annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>
         <annotations:EMMO_e55f2d7c_9893_48cd_b4a4_fdf38253bd20>http://www.ontology-of-units-of-measure.org/resource/om-2/KineticEnergy</annotations:EMMO_e55f2d7c_9893_48cd_b4a4_fdf38253bd20>
         <annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>https://doi.org/10.1351/goldbook.K03402</annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>
+        <rdfs:label xml:lang="en">KineticEnergy</rdfs:label>
         <skos:prefLabel xml:lang="en">KineticEnergy</skos:prefLabel>
     </owl:Class>
     
@@ -1115,6 +1174,7 @@ where g is the appropriate g factor, μ is mostly the Bohr magneton or nuclear m
         <annotations:EMMO_50c298c2_55a2_4068_b3ac_4e948c33181f>http://www.electropedia.org/iev/iev.nsf/display?openform&amp;ievref=113-03-57</annotations:EMMO_50c298c2_55a2_4068_b3ac_4e948c33181f>
         <annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 xml:lang="en">Change of the relative positions of parts of a body, excluding a displacement of the body as a whole.</annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>
         <annotations:EMMO_e55f2d7c_9893_48cd_b4a4_fdf38253bd20>http://www.ontology-of-units-of-measure.org/resource/om-2/Strain</annotations:EMMO_e55f2d7c_9893_48cd_b4a4_fdf38253bd20>
+        <rdfs:label xml:lang="en">Strain</rdfs:label>
         <skos:prefLabel xml:lang="en">Strain</skos:prefLabel>
     </owl:Class>
     
@@ -1129,6 +1189,7 @@ where g is the appropriate g factor, μ is mostly the Bohr magneton or nuclear m
         <annotations:EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25>http://dbpedia.org/page/Gas_constant</annotations:EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25>
         <annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>Equivalent to the Boltzmann constant, but expressed in units of energy per temperature increment per mole (rather than energy per temperature increment per particle).</annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>
         <annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>https://doi.org/10.1351/goldbook.G02579</annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>
+        <rdfs:label xml:lang="en">MolarGasConstant</rdfs:label>
         <skos:prefLabel xml:lang="en">MolarGasConstant</skos:prefLabel>
     </owl:Class>
     
@@ -1142,6 +1203,7 @@ where g is the appropriate g factor, μ is mostly the Bohr magneton or nuclear m
         <annotations:EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25>http://dbpedia.org/page/Area_density</annotations:EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25>
         <annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>https://doi.org/10.1351/goldbook.S06167</annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>
         <rdfs:comment xml:lang="en">Mass per unit area.</rdfs:comment>
+        <rdfs:label xml:lang="en">AreaDensity</rdfs:label>
         <skos:prefLabel xml:lang="en">AreaDensity</skos:prefLabel>
     </owl:Class>
     
@@ -1159,6 +1221,7 @@ where g is the appropriate g factor, μ is mostly the Bohr magneton or nuclear m
         </rdfs:subClassOf>
         <annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 xml:lang="en">SI coherent measurement unit for area.</annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>
         <annotations:EMMO_e55f2d7c_9893_48cd_b4a4_fdf38253bd20>http://www.ontology-of-units-of-measure.org/resource/om-2/squareMetre</annotations:EMMO_e55f2d7c_9893_48cd_b4a4_fdf38253bd20>
+        <rdfs:label xml:lang="en">SquareMetre</rdfs:label>
         <skos:prefLabel xml:lang="en">SquareMetre</skos:prefLabel>
     </owl:Class>
     
@@ -1189,6 +1252,7 @@ The value of a ratio in nepers is given by `ln(x1/x2)` where `x1` and `x2` are t
 Wikipedia</annotations:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84>
         <annotations:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d>https://en.wikipedia.org/wiki/Neper</annotations:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d>
         <annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>https://doi.org/10.1351/goldbook.N04106</annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>
+        <rdfs:label xml:lang="en">Neper</rdfs:label>
         <skos:prefLabel xml:lang="en">Neper</skos:prefLabel>
     </owl:Class>
     
@@ -1202,6 +1266,7 @@ Wikipedia</annotations:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84>
         <annotations:EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25>http://dbpedia.org/page/Magnetic_field</annotations:EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25>
         <annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>https://doi.org/10.1351/goldbook.M03683</annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>
         <rdfs:comment xml:lang="en">Strength of a magnetic field. Commonly denoted H.</rdfs:comment>
+        <rdfs:label xml:lang="en">MagneticFieldStrength</rdfs:label>
         <skos:prefLabel xml:lang="en">MagneticFieldStrength</skos:prefLabel>
     </owl:Class>
     
@@ -1221,6 +1286,7 @@ Wikipedia</annotations:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84>
         <annotations:EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25>http://dbpedia.org/page/Degree_(angle)</annotations:EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25>
         <annotations:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84>Degree is a measurement of plane angle, defined by representing a full rotation as 360 degrees.</annotations:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84>
         <annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>https://doi.org/10.1351/goldbook.D01560</annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>
+        <rdfs:label xml:lang="en">Degree</rdfs:label>
         <skos:prefLabel xml:lang="en">Degree</skos:prefLabel>
     </owl:Class>
     
@@ -1234,6 +1300,7 @@ Wikipedia</annotations:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84>
         <annotations:EMMO_1f1b164d_ec6a_4faa_8d5e_88bda62316cc>http://physics.nist.gov/cuu/CODATA-Value_JosephsonConstant</annotations:EMMO_1f1b164d_ec6a_4faa_8d5e_88bda62316cc>
         <annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>Inverse of the magnetic flux quantum.</annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>
         <rdfs:comment xml:lang="en">The DBpedia definition (http://dbpedia.org/page/Magnetic_flux_quantum) is outdated as May 20, 2019. It is now an exact quantity.</rdfs:comment>
+        <rdfs:label xml:lang="en">JosephsonConstant</rdfs:label>
         <skos:prefLabel xml:lang="en">JosephsonConstant</skos:prefLabel>
     </owl:Class>
     
@@ -1252,6 +1319,7 @@ Wikipedia</annotations:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84>
         <annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 xml:lang="en">SI coherent measurement unit for torque.</annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>
         <annotations:EMMO_e55f2d7c_9893_48cd_b4a4_fdf38253bd20>http://www.ontology-of-units-of-measure.org/resource/om-2/newtonMetre</annotations:EMMO_e55f2d7c_9893_48cd_b4a4_fdf38253bd20>
         <rdfs:comment xml:lang="en">Note that the physical dimension is the same as for Joule.</rdfs:comment>
+        <rdfs:label xml:lang="en">NewtonMetre</rdfs:label>
         <skos:prefLabel xml:lang="en">NewtonMetre</skos:prefLabel>
     </owl:Class>
     
@@ -1265,6 +1333,7 @@ Wikipedia</annotations:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84>
         <rdfs:comment xml:lang="en">Quantities that are ratios of quantities of the same kind (for example length ratios and amount fractions) have the option of being expressed with units (m/m, mol/mol to aid the understanding of the quantity being expressed and also allow the use of SI prefixes, if this
 is desirable (μm/m, nmol/mol).
 -- SI Brochure</rdfs:comment>
+        <rdfs:label xml:lang="en">FractionUnit</rdfs:label>
         <skos:prefLabel xml:lang="en">FractionUnit</skos:prefLabel>
     </owl:Class>
     
@@ -1289,6 +1358,7 @@ is desirable (μm/m, nmol/mol).
         <annotations:EMMO_1f1b164d_ec6a_4faa_8d5e_88bda62316cc>http://qudt.org/vocab/unit/MIN</annotations:EMMO_1f1b164d_ec6a_4faa_8d5e_88bda62316cc>
         <annotations:EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25>http://dbpedia.org/page/Minute</annotations:EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25>
         <annotations:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84>Non-SI time unit defined as 60 seconds.</annotations:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84>
+        <rdfs:label xml:lang="en">Minute</rdfs:label>
         <skos:prefLabel xml:lang="en">Minute</skos:prefLabel>
     </owl:Class>
     
@@ -1302,6 +1372,7 @@ is desirable (μm/m, nmol/mol).
         <annotations:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84 xml:lang="en">The charge of an electron.</annotations:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84>
         <annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>https://doi.org/10.1351/goldbook.E01982</annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>
         <rdfs:comment xml:lang="en">The negative of ElementaryCharge.</rdfs:comment>
+        <rdfs:label xml:lang="en">ElectronCharge</rdfs:label>
         <skos:prefLabel xml:lang="en">ElectronCharge</skos:prefLabel>
     </owl:Class>
     
@@ -1313,6 +1384,7 @@ is desirable (μm/m, nmol/mol).
         <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/units-extension#EMMO_c2f5ee66_579c_44c6_a2e9_fa2eaa9fa4da"/>
         <annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 xml:lang="en">Unit for quantities of dimension one that are the fraction of two lengths.</annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>
         <annotations:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a xml:lang="en">Unit for plane angle.</annotations:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a>
+        <rdfs:label xml:lang="en">LengthFractionUnit</rdfs:label>
         <skos:prefLabel xml:lang="en">LengthFractionUnit</skos:prefLabel>
     </owl:Class>
     
@@ -1328,6 +1400,7 @@ is desirable (μm/m, nmol/mol).
         <rdfs:comment xml:lang="en">Measure of a material&apos;s ability to conduct an electric current. 
 
 Conductivity is equeal to the resiprocal of resistivity.</rdfs:comment>
+        <rdfs:label xml:lang="en">ElectricalConductivity</rdfs:label>
         <skos:prefLabel xml:lang="en">ElectricalConductivity</skos:prefLabel>
     </owl:Class>
     
@@ -1341,6 +1414,7 @@ Conductivity is equeal to the resiprocal of resistivity.</rdfs:comment>
         <annotations:EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25>http://dbpedia.org/page/Stress_(mechanics)</annotations:EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25>
         <rdfs:comment xml:lang="en">Force per unit oriented surface area .</rdfs:comment>
         <rdfs:comment xml:lang="en">Measure of the internal forces that neighboring particles of a continuous material exert on each other.</rdfs:comment>
+        <rdfs:label xml:lang="en">Stress</rdfs:label>
         <skos:prefLabel xml:lang="en">Stress</skos:prefLabel>
     </owl:Class>
     
@@ -1357,6 +1431,7 @@ Conductivity is equeal to the resiprocal of resistivity.</rdfs:comment>
         <skos:altLabel xml:lang="en">Concentration</skos:altLabel>
         <skos:altLabel xml:lang="en">MolarConcentration</skos:altLabel>
         <skos:altLabel xml:lang="en">Molarity</skos:altLabel>
+        <rdfs:label xml:lang="en">AmountConcentration</rdfs:label>
         <skos:prefLabel xml:lang="en">AmountConcentration</skos:prefLabel>
     </owl:Class>
     
@@ -1382,6 +1457,7 @@ Conductivity is equeal to the resiprocal of resistivity.</rdfs:comment>
         <annotations:EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25>http://dbpedia.org/page/Hectare</annotations:EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25>
         <annotations:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84>A non-SI metric unit of area defined as the square with 100-metre sides.</annotations:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84>
         <annotations:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d>https://en.wikipedia.org/wiki/Hectare</annotations:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d>
+        <rdfs:label xml:lang="en">Hectare</rdfs:label>
         <skos:prefLabel xml:lang="en">Hectare</skos:prefLabel>
     </owl:Class>
     
@@ -1396,6 +1472,7 @@ Conductivity is equeal to the resiprocal of resistivity.</rdfs:comment>
         <annotations:EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25>http://dbpedia.org/page/Fine-structure_constant</annotations:EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25>
         <annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>https://doi.org/10.1351/goldbook.F02389</annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>
         <rdfs:comment xml:lang="en">A fundamental physical constant characterizing the strength of the electromagnetic interaction between elementary charged particles.</rdfs:comment>
+        <rdfs:label xml:lang="en">FineStructureConstant</rdfs:label>
         <skos:prefLabel xml:lang="en">FineStructureConstant</skos:prefLabel>
     </owl:Class>
     
@@ -1410,6 +1487,7 @@ Conductivity is equeal to the resiprocal of resistivity.</rdfs:comment>
         <annotations:EMMO_e55f2d7c_9893_48cd_b4a4_fdf38253bd20>http://www.ontology-of-units-of-measure.org/resource/om-2/Wavenumber</annotations:EMMO_e55f2d7c_9893_48cd_b4a4_fdf38253bd20>
         <annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>https://doi.org/10.1351/goldbook.W06664</annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>
         <rdfs:comment xml:lang="en">The number of waves per unit length along the direction of propagation.</rdfs:comment>
+        <rdfs:label xml:lang="en">Wavenumber</rdfs:label>
         <skos:prefLabel xml:lang="en">Wavenumber</skos:prefLabel>
     </owl:Class>
     
@@ -1424,6 +1502,7 @@ Conductivity is equeal to the resiprocal of resistivity.</rdfs:comment>
         <annotations:EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25>http://dbpedia.org/page/Gravitational_constant</annotations:EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25>
         <annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>https://doi.org/10.1351/goldbook.G02695</annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>
         <rdfs:comment xml:lang="en">Physical constant in Newton&apos;s law of gravitation and in Einstein&apos;s general theory of relativity.</rdfs:comment>
+        <rdfs:label xml:lang="en">NewtonianConstantOfGravity</rdfs:label>
         <skos:prefLabel xml:lang="en">NewtonianConstantOfGravity</skos:prefLabel>
     </owl:Class>
     
@@ -1435,6 +1514,7 @@ Conductivity is equeal to the resiprocal of resistivity.</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/isq#EMMO_ba882f34_0d71_4e4f_9d92_0c076c633a2c"/>
         <isq:EMMO_de178b12_5d35_4bca_8efa_a4193162571d>T0 L0 M0 I0 Θ0 N0 J0</isq:EMMO_de178b12_5d35_4bca_8efa_a4193162571d>
         <annotations:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84>Number of nucleons in an atomic nucleus.</annotations:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84>
+        <rdfs:label xml:lang="en">MassNumber</rdfs:label>
         <skos:prefLabel xml:lang="en">MassNumber</skos:prefLabel>
     </owl:Class>
     
@@ -1449,6 +1529,7 @@ Conductivity is equeal to the resiprocal of resistivity.</rdfs:comment>
         <annotations:EMMO_1f1b164d_ec6a_4faa_8d5e_88bda62316cc>http://physics.nist.gov/cuu/CODATA-Value_MagneticConstant</annotations:EMMO_1f1b164d_ec6a_4faa_8d5e_88bda62316cc>
         <rdfs:comment xml:lang="en">The DBpedia and UIPAC Gold Book definitions (http://dbpedia.org/page/Vacuum_permeability,  https://doi.org/10.1351/goldbook.P04504) are outdated since May 20, 2019. It is now a measured constant.</rdfs:comment>
         <rdfs:comment xml:lang="en">The value of magnetic permeability in a classical vacuum.</rdfs:comment>
+        <rdfs:label xml:lang="en">VacuumMagneticPermeability</rdfs:label>
         <skos:prefLabel xml:lang="en">VacuumMagneticPermeability</skos:prefLabel>
     </owl:Class>
     
@@ -1462,6 +1543,7 @@ Conductivity is equeal to the resiprocal of resistivity.</rdfs:comment>
         <annotations:EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25>http://dbpedia.org/page/Electrical_resistivity_and_conductivity</annotations:EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25>
         <annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>https://doi.org/10.1351/goldbook.R05316</annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>
         <rdfs:comment xml:lang="en">Electric field strength divided by the current density.</rdfs:comment>
+        <rdfs:label xml:lang="en">ElectricalResistivity</rdfs:label>
         <skos:prefLabel xml:lang="en">ElectricalResistivity</skos:prefLabel>
     </owl:Class>
     
@@ -1487,6 +1569,7 @@ Conductivity is equeal to the resiprocal of resistivity.</rdfs:comment>
         <annotations:EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25>http://dbpedia.org/page/Electronvolt</annotations:EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25>
         <annotations:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84>The amount of energy gained (or lost) by the charge of a single electron moving across an electric potential difference of one volt.</annotations:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84>
         <annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>https://doi.org/10.1351/goldbook.E02014</annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>
+        <rdfs:label xml:lang="en">ElectronVolt</rdfs:label>
         <skos:prefLabel xml:lang="en">ElectronVolt</skos:prefLabel>
     </owl:Class>
     
@@ -1500,6 +1583,7 @@ Conductivity is equeal to the resiprocal of resistivity.</rdfs:comment>
         <annotations:EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25>http://dbpedia.org/page/Acceleration</annotations:EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25>
         <annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>https://doi.org/10.1351/goldbook.A00051</annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>
         <rdfs:comment xml:lang="en">Derivative of velocity with respect to time.</rdfs:comment>
+        <rdfs:label xml:lang="en">Acceleration</rdfs:label>
         <skos:prefLabel xml:lang="en">Acceleration</skos:prefLabel>
     </owl:Class>
     
@@ -1513,6 +1597,7 @@ Conductivity is equeal to the resiprocal of resistivity.</rdfs:comment>
         <annotations:EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25>http://dbpedia.org/page/Radiant_flux</annotations:EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25>
         <annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>https://doi.org/10.1351/goldbook.R05046</annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>
         <rdfs:comment xml:lang="en">The radiant energy emitted, reflected, transmitted or received, per unit time.</rdfs:comment>
+        <rdfs:label xml:lang="en">RadiantFlux</rdfs:label>
         <skos:prefLabel xml:lang="en">RadiantFlux</skos:prefLabel>
     </owl:Class>
     
@@ -1524,6 +1609,7 @@ Conductivity is equeal to the resiprocal of resistivity.</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/units-extension#EMMO_c2f5ee66_579c_44c6_a2e9_fa2eaa9fa4da"/>
         <annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 xml:lang="en">Unit for quantities of dimension one that are the fraction of two speeds.</annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>
         <annotations:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a xml:lang="en">Unit for refractive index.</annotations:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a>
+        <rdfs:label xml:lang="en">SpeedFractionUnit</rdfs:label>
         <skos:prefLabel xml:lang="en">SpeedFractionUnit</skos:prefLabel>
     </owl:Class>
     
@@ -1540,6 +1626,7 @@ Conductivity is equeal to the resiprocal of resistivity.</rdfs:comment>
             </owl:Restriction>
         </rdfs:subClassOf>
         <annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 xml:lang="en">Measurement unit for electric dipole moment.</annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>
+        <rdfs:label xml:lang="en">ColumnMetre</rdfs:label>
         <skos:prefLabel xml:lang="en">ColumnMetre</skos:prefLabel>
     </owl:Class>
     
@@ -1554,6 +1641,7 @@ Conductivity is equeal to the resiprocal of resistivity.</rdfs:comment>
         <annotations:EMMO_1f1b164d_ec6a_4faa_8d5e_88bda62316cc>http://physics.nist.gov/cuu/CODATA-Value_VonKlitzingConstant</annotations:EMMO_1f1b164d_ec6a_4faa_8d5e_88bda62316cc>
         <annotations:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84>The von Klitzing constant is defined as Planck constant divided by the square of the elementary charge.</annotations:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84>
         <rdfs:comment xml:lang="en">Resistance quantum.</rdfs:comment>
+        <rdfs:label xml:lang="en">VonKlitzingConstant</rdfs:label>
         <skos:prefLabel xml:lang="en">VonKlitzingConstant</skos:prefLabel>
     </owl:Class>
     
@@ -1567,6 +1655,7 @@ Conductivity is equeal to the resiprocal of resistivity.</rdfs:comment>
         <annotations:EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25>http://dbpedia.org/page/Reciprocal_length</annotations:EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25>
         <annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 xml:lang="en">The inverse of length.</annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>
         <annotations:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d>https://en.wikipedia.org/wiki/Reciprocal_length</annotations:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d>
+        <rdfs:label xml:lang="en">ReciprocalLength</rdfs:label>
         <skos:prefLabel xml:lang="en">ReciprocalLength</skos:prefLabel>
     </owl:Class>
     
@@ -1579,6 +1668,7 @@ Conductivity is equeal to the resiprocal of resistivity.</rdfs:comment>
         <isq:EMMO_de178b12_5d35_4bca_8efa_a4193162571d>T0 L-3 M0 I0 Θ0 N0 J0</isq:EMMO_de178b12_5d35_4bca_8efa_a4193162571d>
         <annotations:EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25>http://dbpedia.org/page/Volume</annotations:EMMO_6dd685dd_1895_46e4_b227_be9f7d643c25>
         <rdfs:comment xml:lang="en">Extent of an object in space.</rdfs:comment>
+        <rdfs:label xml:lang="en">Volume</rdfs:label>
         <skos:prefLabel xml:lang="en">Volume</skos:prefLabel>
     </owl:Class>
     
@@ -1590,6 +1680,7 @@ Conductivity is equeal to the resiprocal of resistivity.</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/units-extension#EMMO_c2f5ee66_579c_44c6_a2e9_fa2eaa9fa4da"/>
         <annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 xml:lang="en">Unit for quantities of dimension one that are the fraction of two amount of substance.</annotations:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9>
         <annotations:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a xml:lang="en">Unit for amount fraction.</annotations:EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a>
+        <rdfs:label xml:lang="en">AmountFractionUnit</rdfs:label>
         <skos:prefLabel xml:lang="en">AmountFractionUnit</skos:prefLabel>
     </owl:Class>
     
@@ -1605,6 +1696,7 @@ Conductivity is equeal to the resiprocal of resistivity.</rdfs:comment>
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://emmo.info/emmo/middle/metrology#EMMO_9895a1b4_f0a5_4167_ac5e_97db40b8bfcc"/>
+        <rdfs:label xml:lang="en">VelocityDimension</rdfs:label>
         <skos:prefLabel xml:lang="en">VelocityDimension</skos:prefLabel>
     </owl:Class>
     
@@ -1630,6 +1722,7 @@ Conductivity is equeal to the resiprocal of resistivity.</rdfs:comment>
         <annotations:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84>A non-SI unit defined as 1000 kg.</annotations:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84>
         <annotations:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d>https://en.wikipedia.org/wiki/Tonne</annotations:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d>
         <annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>https://doi.org/10.1351/goldbook.T06394</annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>
+        <rdfs:label xml:lang="en">Tonne</rdfs:label>
         <skos:prefLabel xml:lang="en">Tonne</skos:prefLabel>
     </owl:Class>
     
@@ -1654,6 +1747,7 @@ Conductivity is equeal to the resiprocal of resistivity.</rdfs:comment>
         <annotations:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84>Gram is defined as one thousandth of the SI unit kilogram.</annotations:EMMO_70fe84ff_99b6_4206_a9fc_9a8931836d84>
         <annotations:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d>https://en.wikipedia.org/wiki/Gram</annotations:EMMO_c84c6752_6d64_48cc_9500_e54a3c34898d>
         <annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>https://doi.org/10.1351/goldbook.G02680</annotations:EMMO_fe015383_afb3_44a6_ae86_043628697aa2>
+        <rdfs:label xml:lang="en">Gram</rdfs:label>
         <skos:prefLabel xml:lang="en">Gram</skos:prefLabel>
     </owl:Class>
 </rdf:RDF>
