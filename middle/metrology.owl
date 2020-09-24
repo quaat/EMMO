@@ -290,7 +290,7 @@ SI Brochure</rdfs:comment>
             <owl:Restriction>
                 <owl:onProperty>
                     <rdf:Description>
-                        <owl:inverseOf rdf:resource="http://emmo.info/emmo/middle/semiotics#EMMO_60577dea_9019_4537_ac41_80b0fb563d41"/>
+                        <owl:inverseOf rdf:resource="http://emmo.info/emmo/middle/semiotics#EMMO_eb3518bf_f799_4f9e_8c3e_ce59af11453b"/>
                     </rdf:Description>
                 </owl:onProperty>
                 <owl:someValuesFrom rdf:resource="http://emmo.info/emmo/middle/metrology#EMMO_08b308d4_31cd_4779_a784_aa92fc730f39"/>
