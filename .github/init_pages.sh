@@ -15,13 +15,19 @@ set -x
 pagesdir="$1"
 version="$2"
 
+
+# Arguments
+if [ $# -ne 2 ]; then
+    echo "Usage: init_pages.sh PAGES_DIR VERSION"
+    exit 1
+fi
 versiondir="$pagesdir/versions/$version"
 pagesurl=git@github.com:emmo-repo/emmo-repo.github.io.git
 
 
 # Add directory for current version if it does not exists
 if [ ! -d "$versiondir" ]; then
-    mkdir -p "$versiondir"
+    git clone $pagesurl $pagesdir
 fi
 
 # Add/update README and LICENSE files
@@ -36,6 +42,7 @@ cd -
 
 # Check for inferred ontology
 if [ ! -f "$versiondir/emmo-inferred.owl" ]; then
+    set +x
     echo "Missing inferred ontology for EMMO $version."
     echo "Please do the following:"
     echo "  1. Clone $pagesurl"
