@@ -1,0 +1,563 @@
+@prefix : <http://emmo.info/emmo#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@base <http://emmo.info/emmo/dt-nmbp-09> .
+
+<http://emmo.info/emmo/dt-nmbp-09> rdf:type owl:Ontology ;
+                                                    owl:imports <http://emmo.info/emmo/1.0.0-beta> ;
+                                                    :EMMO_5525a055_dda5_4556_8b91_f0d22fa676cc """EMMO is released under a Creative Commons license Attribution 4.0 International (CC BY 4.0)
+
+https://creativecommons.org/licenses/by/4.0/legalcode""" .
+
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://emmo.info/emmo/application/co2-activation#EMMO_0090db08_8af6_4744_a9a6_5b2f6e554951
+:EMMO_0090db08_8af6_4744_a9a6_5b2f6e554951 rdf:type owl:ObjectProperty ;
+                                           rdfs:subPropertyOf :EMMO_c5aae418_1622_4d02_93c5_21159e28e6c1 ;
+                                           skos:prefLabel "hasOutput"@en .
+
+
+###  http://emmo.info/emmo/application/co2-activation#EMMO_398b9eb5_d771_4298_9804_bcbc9a1955f5
+:EMMO_398b9eb5_d771_4298_9804_bcbc9a1955f5 rdf:type owl:ObjectProperty ;
+                                           rdfs:subPropertyOf :EMMO_b2282816_b7a3_44c6_b2cb_3feff1ceb7fe ;
+                                           skos:prefLabel "hasReactant"@en .
+
+
+###  http://emmo.info/emmo/application/co2-activation#EMMO_516daefe_abcf_4fa6_a7a4_e801cb1475f4
+:EMMO_516daefe_abcf_4fa6_a7a4_e801cb1475f4 rdf:type owl:ObjectProperty ;
+                                           rdfs:subPropertyOf :EMMO_b2282816_b7a3_44c6_b2cb_3feff1ceb7fe ;
+                                           skos:prefLabel "hasProduct"@en .
+
+
+###  http://emmo.info/emmo/application/co2-activation#EMMO_85e3a5ba_9187_45ef_855f_7f129bf48e95
+:EMMO_85e3a5ba_9187_45ef_855f_7f129bf48e95 rdf:type owl:ObjectProperty ;
+                                           rdfs:subPropertyOf :EMMO_c5aae418_1622_4d02_93c5_21159e28e6c1 ;
+                                           skos:prefLabel "hasInput"@en .
+
+
+###  http://emmo.info/emmo/application/co2-activation#EMMO_fdf9609a_4b04_4b07_8461_d449b3a93c46
+:EMMO_fdf9609a_4b04_4b07_8461_d449b3a93c46 rdf:type owl:ObjectProperty ;
+                                           rdfs:subPropertyOf :EMMO_b2282816_b7a3_44c6_b2cb_3feff1ceb7fe ;
+                                           skos:prefLabel "hasBasisSet"@en .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://emmo.info/atomistic/atomistic#EMMO_aabf5735_3acb_4144_b97f_0ccc041f1b2f
+:EMMO_aabf5735_3acb_4144_b97f_0ccc041f1b2f rdf:type owl:Class ;
+                                                                                 rdfs:subClassOf :EMMO_6eca09be_17e9_445e_abc9_000aa61b7a11 ,
+                                                                                                 [ rdf:type owl:Restriction ;
+                                                                                                   owl:onProperty :EMMO_b2282816_b7a3_44c6_b2cb_3feff1ceb7fe ;
+                                                                                                   owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                                                                   owl:onClass :EMMO_ed03c345_bcfa_4f84_a10a_2e03902049b5
+                                                                                                 ] ;
+                                                                                 skos:prefLabel "DFTModel" .
+
+
+###  http://emmo.info/crystallography/crystallography#EMMO_6a340d67_c6cb_4348_8537_d9aa0e768721
+:EMMO_6a340d67_c6cb_4348_8537_d9aa0e768721 rdf:type owl:Class ;
+                                                          skos:prefLabel "CrystalStructure" .
+
+
+###  http://emmo.info/emmo/application/co2-activation#EMMO_0a62ad91_3a4b_4050_a43b_f5d76218c22f
+:EMMO_0a62ad91_3a4b_4050_a43b_f5d76218c22f rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_6474d4c9_82c8_4305_b959_9d89f032275f ;
+                                           skos:prefLabel "Solver"@en .
+
+
+###  http://emmo.info/emmo/application/co2-activation#EMMO_19155510_dcc1_430f_b3e5_ca589d0913e0
+:EMMO_19155510_dcc1_430f_b3e5_ca589d0913e0 rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_c74da218_9147_4f03_92d1_8894abca55f3 ,
+                                                           :EMMO_d7788d1a_020d_4c78_85a1_13563fcec168 ;
+                                           :EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "A step-by-step procedure for solving a problem or accomplishing some end" ;
+                                           skos:prefLabel "Algorithm"@en .
+
+
+###  http://emmo.info/emmo/application/co2-activation#EMMO_1e99c727_507d_4069_9d7f_83c9fdc61925
+:EMMO_1e99c727_507d_4069_9d7f_83c9fdc61925 rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_8419a634_01c5_4e8d_a170_4c877ca85f4a ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty :EMMO_b2282816_b7a3_44c6_b2cb_3feff1ceb7fe ;
+                                                             owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                             owl:onClass :EMMO_30709279_36f9_465e_a721_da09bb9f4461
+                                                           ] ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty :EMMO_b2282816_b7a3_44c6_b2cb_3feff1ceb7fe ;
+                                                             owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                             owl:onClass :EMMO_39011096_93ca_43c4_91d6_7d1bc87d7d2b
+                                                           ] ;
+                                           skos:prefLabel "ChemicalReactionProduct"@en .
+
+
+###  http://emmo.info/emmo/application/co2-activation#EMMO_235d39d5_e88d_482a_980a_df5a09ff73e1
+:EMMO_235d39d5_e88d_482a_980a_df5a09ff73e1 rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_31ec09ba_1713_42cb_83c7_b38bf6f9ced2 ;
+                                           skos:prefLabel "FormationEnergy"@en .
+
+
+###  http://emmo.info/emmo/application/co2-activation#EMMO_25f8fa70_d036_472e_b157_32fb96de7ca3
+:EMMO_25f8fa70_d036_472e_b157_32fb96de7ca3 rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_a39d8cf5_df30_40e1_964b_4343af8738ac ;
+                                           skos:prefLabel "TransitionStateGeometry"@en .
+
+
+###  http://emmo.info/emmo/application/co2-activation#EMMO_29dc4d87_876a_46e1_afc0_086459e59568
+:EMMO_29dc4d87_876a_46e1_afc0_086459e59568 rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_61b96838_6919_4c3a_9a2d_9d4e3a2115c8 ;
+                                           skos:prefLabel "CarbonDioxideHydrogenation"@en .
+
+
+###  http://emmo.info/emmo/application/co2-activation#EMMO_2f844143_88d5_44d7_ba93_b6caba8532ef
+:EMMO_2f844143_88d5_44d7_ba93_b6caba8532ef rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_b224f193_874a_4381_ae83_0e8f35f86f81 ;
+                                           skos:prefLabel "PlaneWaveBasisSet"@en .
+
+
+###  http://emmo.info/emmo/application/co2-activation#EMMO_306eaedb_37e3_4db3_ba6f_605d0eb539d8
+:EMMO_306eaedb_37e3_4db3_ba6f_605d0eb539d8 rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_8ecc21ad_5d42_4e6b_8c36_c95c666d6c1a ;
+                                           skos:prefLabel "ADF"@en .
+
+
+###  http://emmo.info/emmo/application/co2-activation#EMMO_30709279_36f9_465e_a721_da09bb9f4461
+:EMMO_30709279_36f9_465e_a721_da09bb9f4461 rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_ba882f34_0d71_4e4f_9d92_0c076c633a2c ;
+                                           skos:prefLabel "StoichiometricNumber"@en .
+
+
+###  http://emmo.info/emmo/application/co2-activation#EMMO_3313d5ff_d209_40d5_a000_fc6a56fa1478
+:EMMO_3313d5ff_d209_40d5_a000_fc6a56fa1478 rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_67e2cddc_3dbe_40a0_8662_1f63a184b722 ;
+                                           skos:prefLabel "VibrationalFrequencyCalculation"@en .
+
+
+###  http://emmo.info/emmo/application/co2-activation#EMMO_39011096_93ca_43c4_91d6_7d1bc87d7d2b
+:EMMO_39011096_93ca_43c4_91d6_7d1bc87d7d2b rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_8419a634_01c5_4e8d_a170_4c877ca85f4a ,
+                                                           :EMMO_909415d1_7c43_4d5e_bbeb_7e1910159f66 ;
+                                           skos:prefLabel "ChemicalFormula"@en .
+
+
+###  http://emmo.info/emmo/application/co2-activation#EMMO_3c6d5d5e_dee7_4aa8_8691_ba1391f7f521
+:EMMO_3c6d5d5e_dee7_4aa8_8691_ba1391f7f521 rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_3397f270_dfc1_4500_8f6f_4d0d85ac5f71 ;
+                                           skos:prefLabel "H2"@en .
+
+
+###  http://emmo.info/emmo/application/co2-activation#EMMO_3ff5b03a_8deb_4cba_a145_0c96332a390f
+:EMMO_3ff5b03a_8deb_4cba_a145_0c96332a390f rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_3397f270_dfc1_4500_8f6f_4d0d85ac5f71 ;
+                                           skos:prefLabel "CO2"@en .
+
+
+###  http://emmo.info/emmo/application/co2-activation#EMMO_4cbfca88_06e4_4ec9_9b16_1aff39a10d6e
+:EMMO_4cbfca88_06e4_4ec9_9b16_1aff39a10d6e rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_4207e895_8b83_4318_996a_72cfb32acd94 ;
+                                           skos:prefLabel "Methanol"@en .
+
+
+###  http://emmo.info/emmo/application/co2-activation#EMMO_4d947635_13a5_4671_b631_658d3f103b3b
+:EMMO_4d947635_13a5_4671_b631_658d3f103b3b rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty :EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a ;
+                                                             owl:someValuesFrom :EMMO_67e2cddc_3dbe_40a0_8662_1f63a184b722
+                                                           ] ;
+                                           rdfs:comment "A \"collection\" of calculations with a specific objective (output)." ;
+                                           skos:prefLabel "Simulation"@en .
+
+
+###  http://emmo.info/emmo/application/co2-activation#EMMO_51530002_becc_47d2_92d7_51380a8eaf7a
+:EMMO_51530002_becc_47d2_92d7_51380a8eaf7a rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_8ecc21ad_5d42_4e6b_8c36_c95c666d6c1a ;
+                                           skos:prefLabel "EON"@en .
+
+
+###  http://emmo.info/emmo/application/co2-activation#EMMO_521aea20_c60e_486d_9ddb_30076f2f3559
+:EMMO_521aea20_c60e_486d_9ddb_30076f2f3559 rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_d7788d1a_020d_4c78_85a1_13563fcec168 ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty :EMMO_398b9eb5_d771_4298_9804_bcbc9a1955f5 ;
+                                                             owl:someValuesFrom :EMMO_571d7e61_80d2_452e_ac44_3a2a739464d7
+                                                           ] ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty :EMMO_516daefe_abcf_4fa6_a7a4_e801cb1475f4 ;
+                                                             owl:someValuesFrom :EMMO_1e99c727_507d_4069_9d7f_83c9fdc61925
+                                                           ] ;
+                                           skos:prefLabel "ChemicalReactionEquation"@en .
+
+
+###  http://emmo.info/emmo/application/co2-activation#EMMO_52e0039f_3530_4c9f_9e5c_38dd616ab2f7
+:EMMO_52e0039f_3530_4c9f_9e5c_38dd616ab2f7 rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_2946d40b_24a1_47fa_8176_e3f79bb45064 ;
+                                           skos:prefLabel "ReactionRateConstant"@en .
+
+
+###  http://emmo.info/emmo/application/co2-activation#EMMO_571d7e61_80d2_452e_ac44_3a2a739464d7
+:EMMO_571d7e61_80d2_452e_ac44_3a2a739464d7 rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_8419a634_01c5_4e8d_a170_4c877ca85f4a ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty :EMMO_b2282816_b7a3_44c6_b2cb_3feff1ceb7fe ;
+                                                             owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                             owl:onClass :EMMO_30709279_36f9_465e_a721_da09bb9f4461
+                                                           ] ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty :EMMO_b2282816_b7a3_44c6_b2cb_3feff1ceb7fe ;
+                                                             owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                             owl:onClass :EMMO_39011096_93ca_43c4_91d6_7d1bc87d7d2b
+                                                           ] ;
+                                           skos:prefLabel "ChemicalReactionReactant"@en .
+
+
+###  http://emmo.info/emmo/application/co2-activation#EMMO_5f62c5a2_b14d_45ee_aadc_af171d82c39e
+:EMMO_5f62c5a2_b14d_45ee_aadc_af171d82c39e rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_52e0039f_3530_4c9f_9e5c_38dd616ab2f7 ;
+                                           skos:prefLabel "ForwardReactionRateConstant"@en .
+
+
+###  http://emmo.info/emmo/application/co2-activation#EMMO_61b96838_6919_4c3a_9a2d_9d4e3a2115c8
+:EMMO_61b96838_6919_4c3a_9a2d_9d4e3a2115c8 rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_c4e9a5d3_3b5b_4a91_8ba1_36bd468cb799 ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty :EMMO_24c71baf_6db6_48b9_86c8_8c70cf36db0c ;
+                                                             owl:someValuesFrom :EMMO_719344fe_e766_4186_a443_61d77f748bae
+                                                           ] ;
+                                           skos:prefLabel "ChemicalReaction"@en .
+
+
+###  http://emmo.info/emmo/application/co2-activation#EMMO_61d42a66_e837_4f27_8235_46ee8580d666
+:EMMO_61d42a66_e837_4f27_8235_46ee8580d666 rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_52e0039f_3530_4c9f_9e5c_38dd616ab2f7 ;
+                                           skos:prefLabel "DesorptionRateConstant"@en .
+
+
+###  http://emmo.info/emmo/application/co2-activation#EMMO_6474d4c9_82c8_4305_b959_9d89f032275f
+:EMMO_6474d4c9_82c8_4305_b959_9d89f032275f rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_d8d2144e_5c8d_455d_a643_5caf4d8d9df8 ;
+                                           :EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "Computer software, or simply software, is a collection of data or computer instructions that tell the computer how to work." ;
+                                           skos:prefLabel "Software"@en .
+
+
+###  http://emmo.info/emmo/application/co2-activation#EMMO_67e2cddc_3dbe_40a0_8662_1f63a184b722
+:EMMO_67e2cddc_3dbe_40a0_8662_1f63a184b722 rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_790d1d4e_15cc_4e55_b5da_9e2efceecd4f ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty :EMMO_0090db08_8af6_4744_a9a6_5b2f6e554951 ;
+                                                             owl:someValuesFrom  :EMMO_c5ddfdba_c074_4aa4_ad6b_1ac4942d300d
+                                                           ] ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty :EMMO_85e3a5ba_9187_45ef_855f_7f129bf48e95 ;
+                                                             owl:someValuesFrom  :EMMO_c5ddfdba_c074_4aa4_ad6b_1ac4942d300d
+                                                           ] ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty :EMMO_c5aae418_1622_4d02_93c5_21159e28e6c1 ;
+                                                             owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                             owl:onClass :EMMO_6474d4c9_82c8_4305_b959_9d89f032275f
+                                                           ] ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty :EMMO_c5aae418_1622_4d02_93c5_21159e28e6c1 ;
+                                                             owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                             owl:onClass :EMMO_8ecc21ad_5d42_4e6b_8c36_c95c666d6c1a
+                                                           ] ;
+                                           skos:prefLabel "Computation"@en .
+
+
+###  http://emmo.info/emmo/application/co2-activation#EMMO_69903d8e_2b13_4285_aa16_6df75ac8c625
+:EMMO_69903d8e_2b13_4285_aa16_6df75ac8c625 rdf:type owl:Class ;
+                                           rdfs:subClassOf  :EMMO_d7788d1a_020d_4c78_85a1_13563fcec168 ;
+                                           skos:prefLabel "Diagram"@en .
+
+
+###  http://emmo.info/emmo/application/co2-activation#EMMO_6aeabf04_8275_4f8b_bbfd_4255056f0594
+:EMMO_6aeabf04_8275_4f8b_bbfd_4255056f0594 rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_52e0039f_3530_4c9f_9e5c_38dd616ab2f7 ;
+                                           skos:prefLabel "AdsorptionRateConstant"@en .
+
+
+###  http://emmo.info/emmo/application/co2-activation#EMMO_7130a935_f8be_4623_b2ca_cb2d952215ed
+:EMMO_7130a935_f8be_4623_b2ca_cb2d952215ed rdf:type owl:Class ;
+                                           rdfs:subClassOf  :EMMO_d8d2144e_5c8d_455d_a643_5caf4d8d9df8 ;
+                                           skos:prefLabel "ReferenceSet"@en .
+
+
+###  http://emmo.info/emmo/application/co2-activation#EMMO_719344fe_e766_4186_a443_61d77f748bae
+:EMMO_719344fe_e766_4186_a443_61d77f748bae rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_f7ed665b_c2e1_42bc_889b_6b42ed3a36f0 ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty :EMMO_b2282816_b7a3_44c6_b2cb_3feff1ceb7fe ;
+                                                             owl:someValuesFrom :EMMO_61d42a66_e837_4f27_8235_46ee8580d666
+                                                           ] ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty :EMMO_b2282816_b7a3_44c6_b2cb_3feff1ceb7fe ;
+                                                             owl:someValuesFrom :EMMO_6aeabf04_8275_4f8b_bbfd_4255056f0594
+                                                           ] ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty :EMMO_b2282816_b7a3_44c6_b2cb_3feff1ceb7fe ;
+                                                             owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                             owl:onClass :EMMO_5f62c5a2_b14d_45ee_aadc_af171d82c39e
+                                                           ] ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty :EMMO_b2282816_b7a3_44c6_b2cb_3feff1ceb7fe ;
+                                                             owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                             owl:onClass :EMMO_b94c7db5_9399_4d01_8a11_703b3e613b33
+                                                           ] ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty :EMMO_b2282816_b7a3_44c6_b2cb_3feff1ceb7fe ;
+                                                             owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                             owl:onClass :EMMO_cefbe9af_cb76_4e99_a24b_966d39a6f755
+                                                           ] ;
+                                           skos:prefLabel "KineticModel"@en .
+
+
+###  http://emmo.info/emmo/application/co2-activation#EMMO_74c61c38_47d3_4354_9334_67e09e6c9ea2
+:EMMO_74c61c38_47d3_4354_9334_67e09e6c9ea2 rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_571d7e61_80d2_452e_ac44_3a2a739464d7 ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty :EMMO_b2282816_b7a3_44c6_b2cb_3feff1ceb7fe ;
+                                                             owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                             owl:onClass :EMMO_d5ed318d_d9a2_4489_b929_3583e0c21d1d
+                                                           ] ;
+                                           skos:prefLabel "AdsorbedReactant"@en .
+
+
+###  http://emmo.info/emmo/application/co2-activation#EMMO_790d1d4e_15cc_4e55_b5da_9e2efceecd4f
+:EMMO_790d1d4e_15cc_4e55_b5da_9e2efceecd4f rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce ;
+                                           skos:prefLabel "Calculation"@en .
+
+
+###  http://emmo.info/emmo/application/co2-activation#EMMO_7ad550fb_9708_40f7_a922_c265a6041b18
+:EMMO_7ad550fb_9708_40f7_a922_c265a6041b18 rdf:type owl:Class ;
+                                           rdfs:subClassOf  :EMMO_3397f270_dfc1_4500_8f6f_4d0d85ac5f71 ;
+                                           skos:prefLabel "H2O"@en .
+
+
+###  http://emmo.info/emmo/application/co2-activation#EMMO_7c591ce2_4c70_4daf_8570_0ef5258f01be
+:EMMO_7c591ce2_4c70_4daf_8570_0ef5258f01be rdf:type owl:Class ;
+                                           rdfs:subClassOf  :EMMO_4207e895_8b83_4318_996a_72cfb32acd94 ;
+                                           skos:prefLabel "CarbonDioxide"@en .
+
+
+###  http://emmo.info/emmo/application/co2-activation#EMMO_7ecf6163_12f0_431c_ad37_83173578a21b
+:EMMO_7ecf6163_12f0_431c_ad37_83173578a21b rdf:type owl:Class ;
+                                           rdfs:subClassOf  :EMMO_4207e895_8b83_4318_996a_72cfb32acd94 ;
+                                           skos:prefLabel "Hydrogen"@en .
+
+
+###  http://emmo.info/emmo/application/co2-activation#EMMO_8419a634_01c5_4e8d_a170_4c877ca85f4a
+:EMMO_8419a634_01c5_4e8d_a170_4c877ca85f4a rdf:type owl:Class ;
+                                           rdfs:subClassOf  :EMMO_d8d2144e_5c8d_455d_a643_5caf4d8d9df8 ;
+                                           skos:prefLabel "Chemical"@en .
+
+
+###  http://emmo.info/emmo/application/co2-activation#EMMO_8bb5b98e_aede_4dfa_83ac_2fb100992cce
+:EMMO_8bb5b98e_aede_4dfa_83ac_2fb100992cce rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_31ec09ba_1713_42cb_83c7_b38bf6f9ced2 ;
+                                           skos:prefLabel "TotalEnergy"@en .
+
+
+###  http://emmo.info/emmo/application/co2-activation#EMMO_8c02dee0_f9c6_4872_8abd_afc07c27c0b7
+:EMMO_8c02dee0_f9c6_4872_8abd_afc07c27c0b7 rdf:type owl:Class ;
+                                           rdfs:subClassOf  :EMMO_3397f270_dfc1_4500_8f6f_4d0d85ac5f71 ;
+                                           skos:prefLabel "CH3OH"@en .
+
+
+###  http://emmo.info/emmo/application/co2-activation#EMMO_8ecc21ad_5d42_4e6b_8c36_c95c666d6c1a
+:EMMO_8ecc21ad_5d42_4e6b_8c36_c95c666d6c1a rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_6474d4c9_82c8_4305_b959_9d89f032275f ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty :EMMO_24c71baf_6db6_48b9_86c8_8c70cf36db0c ;
+                                                             owl:someValuesFrom :EMMO_6eca09be_17e9_445e_abc9_000aa61b7a11
+                                                           ] ;
+                                           skos:prefLabel "ElectronicModellingSoftware"@en .
+
+
+###  http://emmo.info/emmo/application/co2-activation#EMMO_9493968b_efed_4531_8028_649b6fdc99ec
+:EMMO_9493968b_efed_4531_8028_649b6fdc99ec rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_19155510_dcc1_430f_b3e5_ca589d0913e0 ,
+                                                            :EMMO_54ee6b5e_5261_44a8_86eb_5717e7fdb9d0 ;
+                                           skos:prefLabel "NumericalMethod"@en .
+
+
+###  http://emmo.info/emmo/application/co2-activation#EMMO_95e2c235_8088_4dd9_bfd5_5002a4eec27c
+:EMMO_95e2c235_8088_4dd9_bfd5_5002a4eec27c rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_b224f193_874a_4381_ae83_0e8f35f86f81 ;
+                                           skos:prefLabel "GaussianBasisSet"@en .
+
+
+###  http://emmo.info/emmo/application/co2-activation#EMMO_a328963a_2d7c_4ac0_bfde_799e00be3541
+:EMMO_a328963a_2d7c_4ac0_bfde_799e00be3541 rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_2946d40b_24a1_47fa_8176_e3f79bb45064 ;
+                                           skos:prefLabel "Coverage"@en .
+
+
+###  http://emmo.info/emmo/application/co2-activation#EMMO_a39d8cf5_df30_40e1_964b_4343af8738ac
+:EMMO_a39d8cf5_df30_40e1_964b_4343af8738ac rdf:type owl:Class ;
+                                           rdfs:subClassOf  :EMMO_dd4a7f3e_ef56_466c_ac1a_d2716b5f87ec ;
+                                           skos:prefLabel "MolecularGeometry"@en .
+
+
+###  http://emmo.info/emmo/application/co2-activation#EMMO_a7a37049_dc50_4b58_a93a_8d857a4c9382
+:EMMO_a7a37049_dc50_4b58_a93a_8d857a4c9382 rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_31ec09ba_1713_42cb_83c7_b38bf6f9ced2 ;
+                                           skos:prefLabel "ActivationEnergy"@en .
+
+
+###  http://emmo.info/emmo/application/co2-activation#EMMO_abce108c_33eb_41bb_9b55_5ca4a5792931
+:EMMO_abce108c_33eb_41bb_9b55_5ca4a5792931 rdf:type owl:Class ;
+                                           rdfs:subClassOf  :EMMO_d8d2144e_5c8d_455d_a643_5caf4d8d9df8 ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty :EMMO_b2282816_b7a3_44c6_b2cb_3feff1ceb7fe ;
+                                                             owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                             owl:onClass :EMMO_39011096_93ca_43c4_91d6_7d1bc87d7d2b
+                                                           ] ;
+                                           skos:prefLabel "TransitionState"@en .
+
+
+###  http://emmo.info/emmo/application/co2-activation#EMMO_b224f193_874a_4381_ae83_0e8f35f86f81
+:EMMO_b224f193_874a_4381_ae83_0e8f35f86f81 rdf:type owl:Class ;
+                                           rdfs:subClassOf  :EMMO_4bc29b0f_8fcc_4026_a291_f9774a66d9b8 ;
+                                           skos:prefLabel "BasisSet"@en .
+
+
+###  http://emmo.info/emmo/application/co2-activation#EMMO_b94c7db5_9399_4d01_8a11_703b3e613b33
+:EMMO_b94c7db5_9399_4d01_8a11_703b3e613b33 rdf:type owl:Class ;
+                                           rdfs:subClassOf  :EMMO_81369540_1b0e_471b_9bae_6801af22800e ;
+                                           skos:prefLabel "ReactionRate"@en .
+
+
+###  http://emmo.info/emmo/application/co2-activation#EMMO_c4e9a5d3_3b5b_4a91_8ba1_36bd468cb799
+:EMMO_c4e9a5d3_3b5b_4a91_8ba1_36bd468cb799 rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce ;
+                                           skos:prefLabel "ChemicalPhenomenon"@en .
+
+
+###  http://emmo.info/emmo/application/co2-activation#EMMO_c7100a8c_407a_4dad_8881_827b76851ef8
+:EMMO_c7100a8c_407a_4dad_8881_827b76851ef8 rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_67e2cddc_3dbe_40a0_8662_1f63a184b722 ,
+                                                            :EMMO_d8d2144e_5c8d_455d_a643_5caf4d8d9df8 ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty :EMMO_0090db08_8af6_4744_a9a6_5b2f6e554951 ;
+                                                             owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                             owl:onClass :EMMO_8bb5b98e_aede_4dfa_83ac_2fb100992cce
+                                                           ] ;
+                                           skos:prefLabel "WavefunctionOptimization"@en .
+
+
+###  http://emmo.info/emmo/application/co2-activation#EMMO_cefbe9af_cb76_4e99_a24b_966d39a6f755
+:EMMO_cefbe9af_cb76_4e99_a24b_966d39a6f755 rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_52e0039f_3530_4c9f_9e5c_38dd616ab2f7 ;
+                                           skos:prefLabel "ReverseReactionRateConstant"@en .
+
+
+###  http://emmo.info/emmo/application/co2-activation#EMMO_d5ed318d_d9a2_4489_b929_3583e0c21d1d
+:EMMO_d5ed318d_d9a2_4489_b929_3583e0c21d1d rdf:type owl:Class ;
+                                           rdfs:subClassOf  :EMMO_dd4a7f3e_ef56_466c_ac1a_d2716b5f87ec ;
+                                           skos:prefLabel "Denticity"@en .
+
+
+###  http://emmo.info/emmo/application/co2-activation#EMMO_d6df3642_5ef2_49fb_9eeb_26f34a6ef380
+:EMMO_d6df3642_5ef2_49fb_9eeb_26f34a6ef380 rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_67e2cddc_3dbe_40a0_8662_1f63a184b722 ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty :EMMO_0090db08_8af6_4744_a9a6_5b2f6e554951 ;
+                                                             owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                             owl:onClass :EMMO_6a340d67_c6cb_4348_8537_d9aa0e768721
+                                                           ] ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty :EMMO_0090db08_8af6_4744_a9a6_5b2f6e554951 ;
+                                                             owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                             owl:onClass :EMMO_8bb5b98e_aede_4dfa_83ac_2fb100992cce
+                                                           ] ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty :EMMO_c5aae418_1622_4d02_93c5_21159e28e6c1 ;
+                                                             owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                             owl:onClass :EMMO_8ecc21ad_5d42_4e6b_8c36_c95c666d6c1a
+                                                           ] ;
+                                           skos:prefLabel "GeometryOptimization"@en .
+
+
+###  http://emmo.info/emmo/application/co2-activation#EMMO_e24de70b_e48b_4795_8e73_857bffbdaca8
+:EMMO_e24de70b_e48b_4795_8e73_857bffbdaca8 rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_2946d40b_24a1_47fa_8176_e3f79bb45064 ;
+                                           skos:prefLabel "TurnoverFrequency"@en .
+
+
+###  http://emmo.info/emmo/application/co2-activation#EMMO_e2551665_75f0_4f9e_b07e_1cf8643b3ab4
+:EMMO_e2551665_75f0_4f9e_b07e_1cf8643b3ab4 rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_67e2cddc_3dbe_40a0_8662_1f63a184b722 ;
+                                           skos:prefLabel "StationaryPointCalculation"@en .
+
+
+###  http://emmo.info/emmo/application/co2-activation#EMMO_e40ed789_d003_4062_8d58_6b47a23fedc0
+:EMMO_e40ed789_d003_4062_8d58_6b47a23fedc0 rdf:type owl:Class ;
+                                           rdfs:subClassOf  :EMMO_4207e895_8b83_4318_996a_72cfb32acd94 ;
+                                           skos:prefLabel "Catalyst"@en .
+
+
+###  http://emmo.info/emmo/application/co2-activation#EMMO_ed03c345_bcfa_4f84_a10a_2e03902049b5
+:EMMO_ed03c345_bcfa_4f84_a10a_2e03902049b5 rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_e5438930_04e7_4d42_ade5_3700d4a52ab7 ;
+                                           skos:prefLabel "ExchangeCorrelationFunctional"@en .
+
+
+###  http://emmo.info/emmo/application/co2-activation#EMMO_f0855939_03c5_490c_a87d_a18bf525b5f6
+:EMMO_f0855939_03c5_490c_a87d_a18bf525b5f6 rdf:type owl:Class ;
+                                           rdfs:subClassOf  :EMMO_4207e895_8b83_4318_996a_72cfb32acd94 ;
+                                           skos:prefLabel "Water"@en .
+
+
+###  http://emmo.info/emmo/application/co2-activation#EMMO_f5a64060_4e3f_4d49_98da_9f41ad8d3ce1
+:EMMO_f5a64060_4e3f_4d49_98da_9f41ad8d3ce1 rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_19155510_dcc1_430f_b3e5_ca589d0913e0 ,
+                                                            :EMMO_d7788d1a_020d_4c78_85a1_13563fcec168 ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty [ owl:inverseOf  :EMMO_39c3815d_8cae_4c8f_b2ff_eeba24bec455
+                                                                            ] ;
+                                                             owl:someValuesFrom :EMMO_43e9a05d_98af_41b4_92f6_00f79a09bfce
+                                                           ] ;
+                                           rdfs:comment "A graphical representation of a simulation can be given in a diagram and is called workflow. - Based on the CEN agreement" ;
+                                           skos:prefLabel "Workflow"@en .
+
+
+###  http://emmo.info/emmo/application/co2-activation#EMMO_fccaf64e_468c_43bd_a446_c6900ed95e7d
+:EMMO_fccaf64e_468c_43bd_a446_c6900ed95e7d rdf:type owl:Class ;
+                                           rdfs:subClassOf :EMMO_f7ed665b_c2e1_42bc_889b_6b42ed3a36f0 ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty :EMMO_b2282816_b7a3_44c6_b2cb_3feff1ceb7fe ;
+                                                             owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                             owl:onClass :EMMO_5f62c5a2_b14d_45ee_aadc_af171d82c39e
+                                                           ] ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty :EMMO_b2282816_b7a3_44c6_b2cb_3feff1ceb7fe ;
+                                                             owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                             owl:onClass :EMMO_cefbe9af_cb76_4e99_a24b_966d39a6f755
+                                                           ] ;
+                                           skos:prefLabel "TransitionStateTheory"@en .
+
+
+
+[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+] .
+
+[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+ ] .
+
+[ owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
+ ] .
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
