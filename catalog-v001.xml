@@ -23,5 +23,7 @@
         <uri name="http://emmo.info/emmo/1.0.0-beta/middle/isq" uri="./middle/isq.ttl"/>
         <uri name="http://emmo.info/emmo/1.0.0-beta/middle/siunits" uri="./middle/siunits.ttl"/>
         <uri name="http://emmo.info/emmo/1.0.0-beta/middle/units-extension" uri="./middle/units-extension.ttl"/>
+        <uri name="http://emmo.info/emmo/1.0.0-beta/middle/dt-nmbp-09" uri="./middle/dt-nmbp-09.ttl"/>
+
     </group>
 </catalog>

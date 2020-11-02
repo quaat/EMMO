@@ -23,6 +23,7 @@
                                      <http://emmo.info/emmo/1.0.0-beta/middle/reductionistic> ,
                                      <http://emmo.info/emmo/1.0.0-beta/middle/semiotics> ,
                                      <http://emmo.info/emmo/1.0.0-beta/middle/siunits> ,
+                                     <http://emmo.info/emmo/1.0.0-beta/middle/dt-nmbp-09> ,
                                      <http://emmo.info/emmo/1.0.0-beta/middle/units-extension> ;
                                          dcterms:abstract """European Materials & Modelling Ontology (EMMO)
 
